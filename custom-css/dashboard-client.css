@@ -1,0 +1,471 @@
+/* :root {
+  --light-gray-2: #f5f5f5;
+  --dark-0: #171a3b;
+} */
+
+
+/* Start CSS search bar */
+/* .search-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  max-width: 100%;
+}
+
+.search-icon {
+  position: absolute;
+  right: 1.5rem;
+  font-size: 15px;
+  color: #000;
+  cursor: pointer;
+}
+
+.search-container input {
+  padding: 23px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  background: transparent;
+  font-size: 14px;
+}
+
+.search-container input {
+  padding: 23px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  background: transparent;
+  font-size: 14px;
+}
+
+.search-container input:focus {
+  box-shadow: none;
+  background-color: transparent;
+} */
+
+/* End CSS search bar */
+
+/* Start CSS aside date */
+/* #date-day {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 100%;
+  letter-spacing: 0;
+  padding-bottom: 8px;
+}
+
+#date-year {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 100%;
+  letter-spacing: 0;
+  padding-bottom: 8px;
+}
+
+#date-month {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0;
+  padding-bottom: 8px;
+  text-align: center;
+} */
+/* End CSS aside date */
+
+.nav-body {
+  background: #fff;
+}
+
+/* .tab-scheduling-pacient {
+} */
+
+.card {
+  border: none;
+}
+
+.custom-Servico12 {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+/* .label-wheigth label {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0.02px;
+} */
+
+/* .box-nome-clinica label {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0.02px;
+} */
+
+/* .p-tabview .p-tabview-nav,
+.p-tabview .p-tabview-nav li .p-tabview-nav-link,
+.p-tabview .p-tabview-panels {
+  background: #f5f5f5;
+} */
+
+.input-address .formFieldDropdown {
+  border: none;
+  -webkit-appearance: none;
+  background-color: transparent;
+}
+
+.input-address-font,
+.input-address-font .formFieldDropdown {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.input-clinic-font .formFieldDropdown {
+  font-size: 15px;
+}
+
+.input-address label {
+  display: none;
+}
+
+.input-address input,
+.input-price input,
+.select-address select {
+  background: transparent;
+  border: none;
+  box-shadow: none;
+}
+
+/* .box-agendamento {
+  background: #171a3b;
+  color: white;
+  display: flex;
+  align-items: flex-start;
+  border-radius: 8px 0px 0px 8px;
+  -webkit-border-top-left-radius: 10px;
+    -webkit-border-bottom-left-radius: 10px;
+} */
+
+/* .image ez-img-input .card-img {
+  height: 40px !important;
+  width: 40px !important;
+  border-radius: 60px;
+} */
+
+/* .container-text-box {
+  display: flex;
+  align-items: center;
+}
+
+.input-name {
+  display: flex;
+  align-items: center;
+} */
+
+/* .p-tabview .p-tabview-panels{
+    padding: 3rem;
+} */
+
+/* .div-price {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} */
+
+/* .repeater-RepeaterCards.row {
+  gap: 15px 15px;
+  padding: 10px !important;
+} */
+
+/* .cards-repeater {
+  border-radius: 8px;
+  padding: 0 40px 0 15px;
+  flex: 48%;
+} */
+
+/* .scheduling-information {
+  background: #ffffff;
+  border-radius: 0 8px 8px 0;
+} */
+
+/* Start CSS Status */
+
+/* .status {
+  border-radius: 8px;
+  background: #85ffa7;
+  height: 23px;
+  display: grid;
+  place-content: center;
+  margin-left: auto;
+}
+
+.status-emconfirmacao {
+  border-radius: 8px;
+  background: #ecec23;
+  height: 23px;
+  display: grid;
+  place-content: center;
+  margin-left: auto;
+  margin-right: 0.5rem;
+}
+
+.status-cancelado {
+  border-radius: 8px;
+  background: #ea3a05;
+  height: 23px;
+  display: grid;
+  place-content: center;
+  margin-left: auto;
+}
+
+.status-content label {
+  display: flex;
+  margin-bottom: 0;
+  padding: 2px 0;
+  color: #000;
+  text-align: center;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 100%;
+  letter-spacing: 0;
+} */
+
+/* End CSS Status */
+
+/* .especialidade-dropdown select {
+  width: 295px;
+  height: 48px;
+  font-size: 14px;
+  flex-shrink: 0;
+  font-weight: 400;
+  border: none;
+  background: #fafafa;
+}
+
+.especialidade-dropdown select option {
+  font-size: 14px;
+  line-height: 20px;
+  margin: 15px 0 15px 0;
+}
+
+.especialidade-dropdown select option:hover {
+  cursor: pointer;
+} */
+
+/* .event-day label {
+  display: initial;
+  margin-bottom: initial;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.event-time label {
+  display: initial;
+  margin-bottom: initial;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.event-week-day label {
+  display: initial;
+  margin-bottom: initial;
+  font-size: 16px;
+  font-weight: 400;
+} */
+
+.container-pipe {
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+.custom-Servico1 {
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.custom-Especialidade,
+.custom-Professional {
+  font-weight: bold;
+}
+
+.container-service,
+.container-specialty {
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+/* .service-type label {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0.02px;
+} */
+
+/* .container-text-box, .container-text-box .container-fluid {
+    padding-left: 0;
+} */
+
+.container-text-box .container-fluid {
+  margin-top: 0.8rem;
+}
+
+.container-text-box .form-group {
+  padding: 0;
+}
+
+.confirmation-box .form-group {
+  margin-bottom: 0.5rem;
+}
+
+.custom-GroupBox1 {
+  margin-top: 1rem;
+  gap: 5px;
+}
+
+.custom-Status {
+  font-size: 13px;
+}
+
+/* .image {
+    display: grid;
+    place-content: center;
+} */
+
+/* .custom-RepeaterCards {
+    height: 210px;
+} */
+
+/* .button-view-desc div .btn-content {
+  height: 43px;
+}
+
+.button-view-desc span {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0.02px;
+  text-align: center;
+} */
+
+@media (min-width: 992px) and (max-width: 1356px) {
+  .image {
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
+
+  /* .div-price {
+    padding-left: 0;
+    margin-right: 1rem;
+  } */
+}
+
+@media (max-width: 991px) {
+  .box-agendamento {
+    border-radius: 8px 8px 0 0;
+  }
+}
+
+@media (max-width: 768px) {
+  /* .p-tabview-panels {
+    padding: 0;
+  } */
+
+  .image {
+    justify-content: center;
+    display: flex;
+  }
+
+  /* .confirmation-box .row {
+        flex-direction: column-reverse;
+    } */
+}
+
+/* @media (min-width: 576px) and (max-width: 768px) {
+  .status {
+        margin-left: initial;
+    }
+
+    .custom-Servico {
+        margin: 0 auto;
+    }
+} */
+
+@media (max-width: 576px) {
+  .box-agendamento .group-box {
+    margin-top: 0;
+  }
+
+  .box-agendamento .container-fluid {
+    padding: 10px;
+  }
+
+  .custom-GroupBox2 .container-fluid {
+    padding: 0;
+  }
+
+  .status {
+    margin-left: initial;
+  }
+
+  .image {
+    display: grid;
+    place-content: center;
+  }
+
+  .box-nome-clinica {
+    white-space: nowrap;
+  }
+}
+
+@media (min-width: 453px) and (max-width: 992px) {
+  .box-service {
+    padding-left: 0 !important;
+  }
+
+  .confirmation-box,
+  .confirmation-box .container-fluid {
+    padding-right: 0;
+  }
+}
+
+@media (min-width: 453px) and (max-width: 575px) {
+  .box-service {
+    flex: 0 0 58.333333%;
+    max-width: 58.333333%;
+  }
+
+  .status {
+    margin-left: auto !important;
+  }
+}
+
+@media (max-width: 452px) {
+  .custom-GroupBox .form-group {
+    /* margin: 0 auto; */
+  }
+
+  .box-service {
+    text-align: center;
+  }
+
+  .status-cancelado,
+  .status,
+  .status-emconfirmacao {
+    margin-left: 0px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 425px) {
+  .status {
+    margin: 0 auto 8px auto;
+  }
+}
+
+/* @media (max-width: 320px) {
+  .div-price {
+    padding-left: 0;
+  }
+} */

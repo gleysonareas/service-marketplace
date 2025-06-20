@@ -1,0 +1,428 @@
+:root {
+    --light-gray-2: #f5f5f5;
+    --dark-0: #171a3b;
+}
+
+.p-tabview .p-tabview-nav,
+.p-tabview .p-tabview-nav li .p-tabview-nav-link,
+.p-tabview .p-tabview-panels {
+    background: #f5f5f5;
+}
+
+/* Start CSS dropdown */
+.dropdown-category-search select {
+    width: 295px;
+    height: 48px;
+    font-size: 14px;
+    flex-shrink: 0;
+    font-weight: 400;
+    border: none;
+    background: #fafafa;
+}
+
+.dropdown-category-search select option {
+    font-size: 14px;
+    line-height: 20px;
+    margin: 15px 0 15px 0;
+}
+
+.dropdown-category-search select option:hover {
+    cursor: pointer;
+}
+
+/* End CSS dropdown */
+
+/* Start CSS search bar */
+.search-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 100%;
+}
+
+.search-icon {
+    position: absolute;
+    right: 1.5rem;
+    font-size: 15px;
+    color: #000;
+    cursor: pointer;
+}
+
+.search-container input {
+    padding: 23px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background: transparent;
+    font-size: 14px;
+}
+
+.search-container input {
+    padding: 23px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background: transparent;
+    font-size: 14px;
+}
+
+.search-container input:focus {
+    box-shadow: none;
+    background-color: transparent;
+}
+
+/* End CSS search bar */
+
+/* reset of paddings and margins */
+.repeater-cards-client,
+.repeater-cards-client ez-edit-form-fields div.row:has(.group-box-scheduling-info),
+.group-box-date,
+.group-box-date .container-fluid,
+.html-field-date,
+.confirmation-box,
+.confirmation-box .container-fluid,
+.service-type,
+.service-type label,
+.group-box-image-professional,
+.group-box-image-professional .container-fluid,
+.group-box-image-professional .container-fluid ez-edit-form-fields div.row:has(.group-box-professional),
+.group-box-professional,
+.group-box-professional .container-fluid,
+.label-wheigth label,
+.label-nome-clinica,
+.label-nome-clinica label,
+.button-view-desc,
+.button-view-desc div:has(.btn-content),
+.group-box-scheduling-info,
+.group-box-scheduling-info .container-fluid,
+.group-box-scheduling-info .container-fluid ez-edit-form-fields div.row:has(.group-box-image-professional),
+.group-box-service-status,
+.group-box-service-status .container-fluid ez-edit-form-fields div.row:has(.service-type),
+.image-input-container,
+.label-wheigth,
+.container-pipe {
+    margin: 0;
+    padding: 0;
+}
+
+/* Calendar */
+.calendar-days .today {
+    background-color: #e0e0e0;
+    font-weight: bold;
+}
+
+.calendar-days .selected {
+    background-color: #05A8A8;
+    border: 1px solid #607d8b;
+}
+
+.calendar-days .inactive {
+    color: #ccc;
+    cursor: default;
+}
+
+/* Calendar */
+
+/* Repeater */
+.repeater-cards-client {
+    border-radius: 8px;
+    flex: 48%;
+    height: 238px;
+    max-width: 603px;
+}
+
+ez-repeater div div.row:has(.repeater-cards-client) {
+    gap: 1.5rem;
+}
+
+.repeater-cards-client ez-edit-form-fields div.row:has(.group-box-scheduling-info) {
+    flex-wrap: nowrap;
+    height: 238px;
+}
+
+/* Repeater */
+
+/* Date */
+.group-box-date {
+    min-width: 112px;
+    background: #171a3b;
+    color: white;
+    display: flex;
+    align-items: flex-start;
+    border-radius: 8px 0px 0px 8px;
+}
+
+.group-box-date .container-fluid {
+    padding-top: 2rem;
+}
+
+
+#date-day,
+#date-year,
+#date-month {
+    line-height: 100%;
+    letter-spacing: 0;
+    padding-bottom: 12px;
+    text-align: center;
+}
+
+#date-day,
+#date-year {
+    font-weight: 400;
+    font-size: 12px;
+}
+
+#date-month {
+    font-weight: 700;
+    font-size: 16px;
+}
+
+/* Date */
+
+/* Info */
+.group-box-scheduling-info {
+    padding: 1rem;
+    border-radius: 0 8px 8px 0;
+    background: #ffffff;
+}
+
+.group-box-scheduling-info .container-fluid,
+.group-box-scheduling-info .container-fluid ez-edit-form-fields,
+.group-box-scheduling-info .container-fluid ez-edit-form-fields div.row:has(.group-box-image-professional) {
+    height: -webkit-fill-available;
+}
+
+.group-box-scheduling-info .container-fluid ez-edit-form-fields div.row:has(.group-box-image-professional) {
+    gap: 8px;
+    align-items: center;
+}
+
+/* Info */
+
+/* Container Service Status */
+.group-box-service-status .container-fluid ez-edit-form-fields div.row:has(.service-type) {
+    flex-wrap: nowrap;
+}
+
+/* Container Service Status */
+
+/* Service Type */
+.service-type {
+    padding-right: 1rem;
+}
+
+.service-type label {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0.02px;
+}
+
+/* Service Type */
+
+/* Status */
+.status-content {
+    text-align: center;
+    margin: 0;
+    padding: 1rem;
+    border-radius: 8px;
+    height: 23px;
+    display: grid;
+    place-content: center;
+}
+
+.status-content label {
+    display: flex;
+    margin-bottom: 0;
+    color: #000;
+    text-align: center;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 100%;
+    letter-spacing: 0;
+}
+
+.status {
+    background: #85ffa7;
+}
+
+.status-emconfirmacao {
+    background: #ecec23;
+}
+
+.status-cancelado {
+    background: #ea3a05;
+}
+
+/* Status */
+
+/* Container image Info */
+.group-box-image-professional {
+    display: flex;
+    align-items: center;
+}
+
+.group-box-image-professional .container-fluid ez-edit-form-fields div.row:has(.group-box-professional) {
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+/* Container image Info */
+
+/* Image */
+.image ez-img-input .card-img {
+    height: 40px !important;
+    width: 40px !important;
+    border-radius: 60px;
+}
+
+/* Image */
+
+
+/* Professional */
+.group-box-professional .container-fluid ez-edit-form-fields div.row:has(.label-wheigth) {
+    align-items: center;
+}
+
+
+.label-wheigth label {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0.02px;
+}
+
+.container-service {
+    padding-left: 1rem;
+}
+
+/* Professional */
+
+/* Clinical Name */
+.label-nome-clinica label {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0.02px;
+}
+
+/* Clinical Name */
+
+/* Button */
+.button-view-desc div .btn-content {
+    height: 43px;
+}
+
+.button-view-desc span {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0.02px;
+    text-align: center;
+}
+
+/* Button */
+
+/* Medias */
+@media(max-width:1600px) {
+
+    .service-type label,
+    .label-wheigth label,
+    .label-nome-clinica label,
+    .button-view-desc span {
+        font-size: 14px;
+    }
+}
+
+@media(max-width:1280px) {
+    ez-repeater div div.row:has(.repeater-cards-client) {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media(max-width:1024px) {
+    .group-box-container .group-box ez-edit-form-fields .row:has(.group-box-calendar) {
+        flex-direction: column;
+    }
+}
+
+@media(max-width:768px) {
+    .p-tabview-panels {
+        padding: 0;
+    }
+}
+
+@media(max-width:480px) {
+
+    /* Style Card */
+
+    .service-type label,
+    .label-wheigth label,
+    .label-nome-clinica label,
+    .button-view-desc span {
+        font-size: 12px;
+    }
+
+    #date-day,
+    #date-year,
+    #date-month {
+        padding-bottom: 0;
+    }
+
+    .group-box-date .container-fluid {
+        padding-top: 0;
+    }
+
+    .repeater-cards-client {
+        height: 245px;
+    }
+
+    .repeater-cards-client ez-edit-form-fields div.row:has(.group-box-scheduling-info) {
+        flex-direction: column;
+    }
+
+    .group-box-date,
+    .group-box-scheduling-info {
+        max-width: 100%;
+    }
+
+    .group-box-date {
+        border-radius: 8px 8px 0px 0px;
+        align-items: center;
+    }
+
+    .group-box-scheduling-info {
+        border-radius: 0px 0px 8px 8px;
+    }
+
+    .html-field-date div:has(span) {
+        flex-direction: row !important;
+        justify-content: center;
+        align-items: center;
+        gap: 0.5rem;
+    }
+
+    .group-box-professional .container-fluid ez-edit-form-fields div.row:has(.label-wheigth) {
+        align-items: flex-start;
+    }
+}
+
+@media(max-width:375px) {
+
+    .service-type label,
+    .label-wheigth label,
+    .label-nome-clinica label,
+    .button-view-desc span {
+        font-size: 0.8rem;
+    }
+
+    .status-content label {
+        font-size: 10px;
+    }
+
+    .group-box-image-professional .container-fluid ez-edit-form-fields div.row:has(.group-box-professional) {
+        gap: 0.5rem;
+    }
+}
