@@ -1,9 +1,5 @@
-/* #form-runtime-f56208 {
-    padding: 0;
-} */
-
 .main-box {
-  background: #f5f5f5;
+  background: var(--bg-body);
 }
 
 .box-header {
@@ -12,7 +8,7 @@
 
 .box-header .row {
   flex-wrap: nowrap;
-  padding: 0 15px 0 15px;
+  padding: 0 15px;
 }
 
 .box-header-child {
@@ -20,9 +16,9 @@
 }
 
 .category-name-label label {
-  font-size: 14px;
-  font-weight: 500;
-  margin-top: -0.5px;
+  font-size: var(--font-size-small);
+  font-weight: var(--font-weight-medium);
+  margin-top: -0.03125rem; /* Aproximado de -0.5px */
 }
 
 .search-box-child {
@@ -32,7 +28,7 @@
 }
 
 .add-prof-box {
-  background: #ddd;
+  background: var(--light-gray-1);
   height: 60vh;
 }
 
@@ -42,15 +38,15 @@
 
 .lbl-speciality-child,
 .especiality-label-child {
-  font-size: 14px;
+  font-size: var(--font-size-small);
 }
 
 .title-cards-header-child {
-  font-size: 22px;
+  font-size: var(--font-size-large);
 }
 
 .search-box {
-  background: linear-gradient(135deg, #c0e3db 0%, #8ec9c0 100%);
+  background: var(--gradient-search);
   border-radius: 25px;
   align-items: center;
   justify-content: center;
@@ -62,13 +58,13 @@
 }
 
 .inside-search-box ez-edit-form-fields .row {
-  border-bottom: solid 1px black;
+  border-bottom: 1px solid var(--text-black);
   justify-content: space-between;
 }
 
 .btn:focus,
 .btn.focus {
-  outline: 0;
+  outline: none;
   box-shadow: none;
 }
 
@@ -83,16 +79,16 @@
 }
 
 .search-title-profissional {
-  color: var(--dark-0, #171a3b);
-  font-family: Open Sans;
+  color: var(--mp-dark-0);
+  font-family: var(--font-open-sans);
   font-style: normal;
-  font-weight: 700;
+  font-weight: var(--font-weight-bold);
   line-height: normal;
-  letter-spacing: -0.8px;
+  letter-spacing: -0.05rem; /* Aproximado de -0.8px */
 }
 
 .search-title-profissional-child {
-  font-size: 2rem;
+  font-size: var(--font-size-xlarge);
   margin-bottom: 0;
 }
 
@@ -105,9 +101,8 @@
 }
 
 .show-cards-profiles {
-  border-radius: 5px;
-  background: #fafafa;
-  /* cor no figma; */
+  border-radius: var(--border-radius-small);
+  background: var(--mp-light-light);
   max-width: 260px;
   width: 100%;
   max-height: 350px;
@@ -124,6 +119,7 @@
 .profile-image {
   display: flex;
   justify-content: center;
+  height: 100px;
 }
 
 .profile-image ez-img-input .card {
@@ -139,17 +135,17 @@
 }
 
 .btn-schedule-service-child {
-  letter-spacing: 0.4px;
-  font-weight: normal;
+  letter-spacing: 0.025rem; /* Aproximado de 0.4px */
+  font-weight: var(--font-weight-normal);
 }
 
 .pro-name label {
-  color: var(--dark-0, #171a3b);
-  font-size: 16px;
+  color: var(--mp-dark-0);
+  font-size: var(--font-size-medium);
   font-style: normal;
-  font-weight: 700;
+  font-weight: var(--font-weight-bold);
   line-height: normal;
-  letter-spacing: -0.513px;
+  letter-spacing: -0.032rem; /* Aproximado de -0.513px */
   text-transform: capitalize;
 }
 
@@ -162,16 +158,15 @@
 }
 
 .profissional-area label {
-  font-size: 14px;
+  font-size: var(--font-size-small);
   font-style: normal;
-  font-weight: 400;
+  font-weight: var(--font-weight-normal);
   line-height: normal;
-  letter-spacing: -0.308px;
+  letter-spacing: -0.019rem; /* Aproximado de -0.308px */
   margin: 5px 0;
-  padding: 8px;
+  padding: 7px 15px;
   border-radius: 20.506px;
-  background: #d5f2ea;
-  padding: 7px 15px 7px 15px;
+  background: var(--profissional-area-bg);
 }
 
 .category {
@@ -179,12 +174,12 @@
 }
 
 .category label {
-  color: #3a3c54;
-  font-size: 15px;
+  color: var(--font-gray);
+  font-size: var(--font-size-medium-plus);
   font-style: normal;
-  font-weight: 400;
+  font-weight: var(--font-weight-normal);
   line-height: normal;
-  letter-spacing: -0.41px;
+  letter-spacing: -0.0256rem; /* Aproximado de -0.41px */
 }
 
 .input-search-profissional input {
@@ -193,26 +188,22 @@
   z-index: 9999;
 }
 
-.input-search-profissional input::placeholder {
-  color: #3a3c54;
-  font-size: 1rem;
-}
-
+.input-search-profissional input::placeholder,
 .input-search-profissional ez-autocomplete > div > input::placeholder {
-  color: #3a3c54;
-  font-size: 1rem;
+  color: var(--font-gray);
+  font-size: var(--font-size-medium);
 }
 
 .input-search-profissional input:focus {
   border: none;
   cursor: default;
-  box-shadow: initial;
+  box-shadow: none;
 }
 
 .btn-search-profissional button {
-  background: none;
+  background: transparent;
   border: none;
-  color: black;
+  color: var(--text-black);
   display: flex;
   padding: 0;
 }
@@ -221,46 +212,46 @@
   width: auto;
   height: auto;
   flex-shrink: 0;
-  font-size: 1rem;
+  font-size: var(--font-size-medium);
   margin-left: auto;
 }
 
 .user-location label {
-  color: var(--dark-0, #171a3b);
+  color: var(--mp-dark-0);
   font-style: normal;
-  font-weight: 400;
+  font-weight: var(--font-weight-normal);
   line-height: normal;
   text-decoration-line: underline;
 }
 
 .mkt-msg-ask label {
-  color: #000;
+  color: var(--text-black);
   text-align: center;
   font-family: Inter;
-  font-size: 40px;
+  font-size: var(--font-size-xxlarge);
   font-style: normal;
-  font-weight: 700;
+  font-weight: var(--font-weight-bold);
   line-height: normal;
 }
 
 .msg-mkt label {
-  color: #000;
+  color: var(--text-black);
   text-align: center;
   font-family: Inter;
-  font-size: 28px;
+  font-size: 1.75rem; /* 28px */
   font-style: normal;
-  font-weight: 400;
+  font-weight: var(--font-weight-normal);
   line-height: normal;
 }
 
 .input-mkt input {
   border-radius: 20px;
-  background: #f1f1f1;
+  background: var(--input-bg);
   flex-shrink: 0;
 }
 
 .add-prof-box ez-edit-form-fields .row {
-  background: #ddd;
+  background: var(--light-gray-1);
   display: flex;
   justify-content: center;
 }
@@ -268,8 +259,6 @@
 .icon-helth img#Image {
   max-width: 40px;
   max-height: 40px;
-  width: auto;
-  height: auto;
 }
 
 .especiality-label:hover,
@@ -279,10 +268,10 @@
 }
 
 .dropdown2-menu {
-  font-size: 14px;
+  font-size: var(--font-size-small);
   text-align: center;
   list-style: none;
-  background-color: #bdded5;
+  background-color: var(--dropdown-menu-bg);
 }
 
 .box .group-box {
@@ -305,18 +294,18 @@
 .drop-busca-local select,
 .drop-busca-local input {
   background: transparent;
-  border: none;
-  border-bottom: 1px solid #000;
+  border: 0;
+  border-bottom: 1px solid var(--text-black);
   border-radius: 0;
 }
 
 .drop-busca .dropdown2-menu {
-  border: 1px solid #d7d7d7 !important;
+  border: 1px solid var(--dropdown-border) !important;
 }
 
 .drop-busca .dropdown-item.active {
-  color: #000;
-  background-color: #a7d4c6;
+  color: var(--text-black);
+  background-color: var(--dropdown-active-bg);
 }
 
 .drop-busca input,
@@ -358,17 +347,13 @@
 .search-container-Schedule .search-icon {
   position: absolute;
   right: 1.5rem;
-  font-size: 15px;
-  color: #000;
+  font-size: var(--font-size-medium-plus);
+  color: var(--text-black);
   cursor: pointer;
 }
 
 .input-search-profissional-child {
   padding-right: 30px;
-}
-
-.profile-image {
-  height: 100px;
 }
 
 @media screen and (min-width: 1920px) {
@@ -384,7 +369,6 @@
   }
 
   .show-cards-profiles {
-    width: 100%;
     max-width: 80%;
   }
 
@@ -411,6 +395,6 @@
   }
 
   .search-title-profissional-child {
-    font-size: 20px;
+    font-size: 1.25rem; /* 20px */
   }
 }

@@ -15,6 +15,12 @@
     --font-size-medium: 16px;
     --font-size-small: 13px;
     --font-size-xsmall: 12px;
+    --font-size-medium-plus: 0.9375rem; /* 15px */
+    --font-size-xlarge: 2rem; /* 32px */
+    --font-size-xxlarge: 2.5rem; /* 40px */
+    --font-weight-normal: 400;
+    --font-weight-medium: 500;
+    --font-weight-bold: 700;
     --border-radius-large: 40px;
     --border-radius-medium: 8px;
     --border-radius-small: 4px;
@@ -22,4 +28,10 @@
     --mp-primary-3: #F1F8F8;
     --mp-secondary-0: #8BF0D1;
     --font-gray-secondary: #5d6187;
+    --text-black: #000;
+    --input-bg: #f1f1f1;
+    --profissional-area-bg: #d5f2ea;
+    --dropdown-active-bg: #a7d4c6;
+    --dropdown-menu-bg: #bdded5;
+    --gradient-search: linear-gradient(135deg, #c0e3db 0%, #8ec9c0 100%);
 }
