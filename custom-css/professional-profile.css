@@ -1,0 +1,415 @@
+.schedule-time div {
+  border: 0px;
+  margin: 0px !important;
+  padding: 0px;
+}
+
+.custom-GroupBox12 {
+  display: flex;
+  align-items: center;
+}
+
+.main-box-profile {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1600px !important;
+}
+
+.schedule-time label {
+  cursor: pointer;
+  margin-bottom: 0px !important;
+  border-radius: 8px;
+  border: 1px solid var(--light-gray-1, #ddd);
+  background: var(--light-light, #fafafa);
+  padding: 10px;
+  font-size: 13px;
+  margin-right: 10px;
+}
+
+.form-group-RedesSociaisBox > div:first-of-type {
+  margin-top: 7px !important;
+}
+
+.custom-HTMLField8 {
+  display: flex;
+  align-items: center;
+}
+
+.custom-HTMLField8 span {
+  font-size: 14px;
+}
+
+.pi-star-fill {
+  color: #05a8a8 !important;
+}
+
+svg {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+/* Regras antigas legados da primeira versão do projeto, provavelmente precisarão ser revisadas */
+/* .Repeater,
+.form-group-Tab,
+.form-group-GroupBox7,
+.form-group-GroupBox9,
+.recurrence-time-label,
+.form-group-HTMLField8,
+.form-group-RatingStars1,
+.form-group-ScheduleLocal,
+.form-group-ScheduleDay,
+.form-group-RecurrenceTimesBox {
+    padding: 0;
+} */
+
+.form-group-RatingStars1 {
+  margin: 0 1em;
+}
+
+starfillicon svg {
+  width: 16px;
+  height: 16px;
+  margin-right: 0 !important;
+  color: #05a8a8;
+}
+
+.rating-labels label {
+  font-size: 14px;
+  color: #5d6187;
+}
+
+.form-group-Sobre {
+  padding-left: 1rem;
+  padding-right: 0.2rem;
+}
+
+.subtitle label {
+  font-size: 16px;
+  font-weight: 600;
+  color: #171a3b;
+}
+
+.form-group-Profissional {
+  padding-left: 0.2em;
+}
+
+.custom-BioProfissional {
+  text-align: justify;
+}
+
+.form-group-SpecialityPpId {
+  padding-left: 10px;
+}
+
+.box-servico {
+  border-radius: 12px;
+  box-shadow: 0px 0px 30px 0px rgba(165, 165, 165, 0.25);
+  min-height: 173px;
+  max-width: 241px;
+  width: -webkit-fill-available;
+}
+
+.label-desc {
+  font-size: 14px;
+  font-weight: 600;
+  min-height: 3.5rem;
+}
+
+.custom-SpecialityPpId {
+  border: none;
+  color: #fff;
+  border-radius: 16px;
+  max-width: fit-content;
+  -webkit-appearance: none;
+  background-color: #5d6187;
+}
+
+.custom-ServiceTypeLabelId {
+  border: none;
+  padding: 0.5em 1em;
+  border-radius: 8px;
+  margin-left: 1em;
+  margin-right: 2em;
+  text-align: center;
+  background: #f1f8f8;
+  max-width: fit-content;
+  -webkit-appearance: none;
+}
+
+.form-group-GroupBox3 {
+  height: 100%;
+}
+
+.form-group-GroupBox12,
+.form-group-GroupBox3 {
+  border-radius: 8px;
+  background-color: #fff;
+}
+
+.custom-ProfileImage {
+  /* width: 20vh;
+    height: 20vh; */
+  border-radius: 50%;
+  width: 160px;
+  height: 160px;
+}
+
+.form-group-NomePP {
+  margin-bottom: 0 !important;
+}
+
+.custom-NomePP {
+  font-size: 22px;
+  font-weight: 700;
+  color: #171a3b;
+  margin-bottom: 0;
+}
+
+.form-group-ProfessionPP {
+  margin-bottom: 0.5em;
+}
+
+.form-group-ProfessionPP label,
+.form-group-ScheduleLocal label {
+  font-size: 16px;
+  color: #3a3c54;
+}
+
+.form-group-TipoAtendimentoBox,
+.form-group-MarcarAtendimento,
+.form-group-RedesSociaisBox,
+/* .form-group-BoxLocalizacao, */
+.form-group-ScheduleLocal,
+.form-group-GroupBox9,
+.form-group-GroupBox7,
+.form-group-GroupBox3,
+.form-group-ScheduleDay {
+  margin-bottom: 0;
+}
+
+/* .custom-RepeaterLocalizacao {
+    display: flex;
+    align-items: baseline;
+} */
+
+.form-group-RepeaterLocalizacao {
+  flex: none;
+  max-width: none;
+  width: auto;
+}
+
+.info-profissional-label {
+  display: flex;
+  align-items: center;
+}
+
+.info-profissional-label label {
+  font-size: 14px;
+  color: #171a3b;
+}
+
+.form-group-GroupBox1 > div:first-child {
+  margin-top: 0;
+}
+
+.form-group-GroupBox7 {
+  margin-top: -2em;
+  margin-bottom: -1em;
+}
+
+.repeater-TypeServiceRepeater-content {
+  margin-top: 1em;
+}
+
+.form-group-GroupBox3 {
+  padding: 1em 2em;
+}
+
+.custom-RecurrenceTimesBox {
+  display: flex;
+  gap: 1em;
+}
+
+.recurrence-time-label label {
+  padding: 1em;
+  border-radius: 8px;
+  border: solid 1px #dddddd;
+}
+
+.form-group-Pipe,
+.form-group-HTMLField {
+  margin-top: 0.5em;
+}
+
+.box-servicos {
+  padding: 0;
+}
+
+/* Estilização para as tabs e conteúdo dentro delas ficar alinhado */
+/* .form-group-GroupBox4 {
+    padding: 0 0 0 2.5em;
+} */
+
+/* .form-group-GroupBox4>div:first-child {
+    margin: 0;
+} */
+
+/* .repeater-Repeater1-content>div:first-child,
+.repeater-Repeater2-content>div:first-child,
+.form-group-BioProfessional,
+.form-group-ServicosLabel,
+.form-group-GroupBox11,
+.form-group-GroupBox5,
+.box-servicos,
+.Repeater2 {
+    padding: 0;
+} */
+
+a {
+  color: #3a3c54 !important;
+}
+
+.p-tabview-title {
+  font-size: 14px !important;
+  font-weight: 400 !important;
+}
+
+.p-tabview .p-tabview-nav li.p-highlight .p-tabview-nav-link {
+  border-color: #3a3c54 !important;
+}
+
+.card,
+.p-component {
+  border: none !important;
+  background-color: transparent !important;
+}
+
+.p-tabview .p-tabview-nav li .p-tabview-nav-link {
+  padding: 1em 0 !important;
+  margin: 0 1em 0 0 !important;
+}
+
+.p-tabview .p-tabview-nav {
+  border: none !important;
+  background: none !important;
+}
+
+.p-tabview .p-tabview-panels {
+  border: none !important;
+  padding: 0 !important;
+  background: none !important;
+}
+
+@media screen and (min-width: 1920px) {
+  .main-box-profile {
+    max-width: 1600px;
+  }
+
+  .custom-ProfileImage {
+    max-width: 200px;
+    max-height: 200px;
+  }
+}
+
+@media screen and (max-width: 1600px) {
+  .form-group-GroupBox11 {
+    padding-left: 6rem;
+  }
+
+  .repeater-Repeater2-content {
+    gap: 1.5rem;
+  }
+
+  .box-servico {
+    min-width: 176px;
+  }
+
+  .custom-MarcarAtendimento {
+    min-width: 10rem;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .repeater-Repeater2-content {
+    gap: 4.5rem;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .repeater-Repeater2-content {
+    gap: 0;
+  }
+}
+
+@media (max-width: 763px) {
+  .custom-GroupBox12 {
+    flex-direction: column;
+  }
+
+  .info-profissional-label {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .form-group-RedesSociaisBox > div:first-of-type,
+  .form-group-BoxLocalizacao > div:first-of-type,
+  .form-group-TipoAtendimentoBox > div:first-of-type,
+  .form-group-NomePP,
+  .form-group-ProfessionPP,
+  .custom-AverageRatingRepeater,
+  .form-group-RedesSociaisPP {
+    display: flex;
+    justify-content: center;
+  }
+
+  svg {
+    width: 50px !important;
+    margin-right: 0 !important;
+  }
+
+  .custom-CityLabel {
+    width: 50px;
+  }
+
+  .custom-ServiceTypeLabelId {
+    margin-left: 3em;
+    margin-right: 2em;
+  }
+
+  .form-group-Hours {
+    padding-left: 1.3em !important;
+  }
+
+  .custom-ProfileImage {
+    width: 60%;
+    height: 175px;
+    display: flex;
+    justify-content: center;
+  }
+
+  ez-edit-form-fields {
+    overflow: visible;
+  }
+
+  #form-runtime-f56154 .form-group-GroupBox11,
+  .form-group-GroupBox11 {
+    padding-left: 0;
+  }
+
+  .custom-boxs {
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .custom-ProfileImage {
+    height: 150px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .custom-ProfileImage {
+    height: 120px;
+  }
+}
