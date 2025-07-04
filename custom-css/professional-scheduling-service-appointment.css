@@ -1,0 +1,416 @@
+/* #form-runtime-f56208 {
+    padding: 0;
+} */
+
+.main-box {
+  background: #f5f5f5;
+}
+
+.box-header {
+  height: 40px;
+}
+
+.box-header .row {
+  flex-wrap: nowrap;
+  padding: 0 15px 0 15px;
+}
+
+.box-header-child {
+  padding: 0 !important;
+}
+
+.category-name-label label {
+  font-size: 14px;
+  font-weight: 500;
+  margin-top: -0.5px;
+}
+
+.search-box-child {
+  display: flex;
+  justify-content: center;
+  padding-top: 45px;
+}
+
+.add-prof-box {
+  background: #ddd;
+  height: 60vh;
+}
+
+.repeater-showcardsprofiles {
+  gap: 10px;
+}
+
+.lbl-speciality-child,
+.especiality-label-child {
+  font-size: 14px;
+}
+
+.title-cards-header-child {
+  font-size: 22px;
+}
+
+.search-box {
+  background: linear-gradient(135deg, #c0e3db 0%, #8ec9c0 100%);
+  border-radius: 25px;
+  align-items: center;
+  justify-content: center;
+}
+
+.repeater-RepeaterEspecialities-content {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.inside-search-box ez-edit-form-fields .row {
+  border-bottom: solid 1px black;
+  justify-content: space-between;
+}
+
+.btn:focus,
+.btn.focus {
+  outline: 0;
+  box-shadow: none;
+}
+
+.local-ico {
+  width: auto;
+}
+
+.services-box ez-edit-form-fields .row {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.search-title-profissional {
+  color: var(--dark-0, #171a3b);
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.8px;
+}
+
+.search-title-profissional-child {
+  font-size: 2rem;
+  margin-bottom: 0;
+}
+
+.box {
+  height: 10vh;
+}
+
+.services-box .group-box {
+  max-height: 80px;
+}
+
+.show-cards-profiles {
+  border-radius: 5px;
+  background: #fafafa;
+  /* cor no figma; */
+  max-width: 260px;
+  width: 100%;
+  max-height: 350px;
+}
+
+.repeater-showcardsprofiles-content.row {
+  gap: 15px;
+}
+
+.btn-appointments button {
+  height: 40px;
+}
+
+.profile-image {
+  display: flex;
+  justify-content: center;
+}
+
+.profile-image ez-img-input .card {
+  background-color: transparent;
+  border: none;
+}
+
+.profile-image ez-img-input .card-img {
+  object-fit: cover;
+  border-radius: 50px;
+  width: 100px;
+  height: 100px;
+}
+
+.btn-schedule-service-child {
+  letter-spacing: 0.4px;
+  font-weight: normal;
+}
+
+.pro-name label {
+  color: var(--dark-0, #171a3b);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.513px;
+  text-transform: capitalize;
+}
+
+.profissional-area {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  width: 76.899px;
+  height: 29.478px;
+}
+
+.profissional-area label {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.308px;
+  margin: 5px 0;
+  padding: 8px;
+  border-radius: 20.506px;
+  background: #d5f2ea;
+  padding: 7px 15px 7px 15px;
+}
+
+.category {
+  width: 100px;
+}
+
+.category label {
+  color: #3a3c54;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.41px;
+}
+
+.input-search-profissional input {
+  background: transparent;
+  border: none;
+  z-index: 9999;
+}
+
+.input-search-profissional input::placeholder {
+  color: #3a3c54;
+  font-size: 1rem;
+}
+
+.input-search-profissional ez-autocomplete > div > input::placeholder {
+  color: #3a3c54;
+  font-size: 1rem;
+}
+
+.input-search-profissional input:focus {
+  border: none;
+  cursor: default;
+  box-shadow: initial;
+}
+
+.btn-search-profissional button {
+  background: none;
+  border: none;
+  color: black;
+  display: flex;
+  padding: 0;
+}
+
+.btn-search-profissional i {
+  width: auto;
+  height: auto;
+  flex-shrink: 0;
+  font-size: 1rem;
+  margin-left: auto;
+}
+
+.user-location label {
+  color: var(--dark-0, #171a3b);
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration-line: underline;
+}
+
+.mkt-msg-ask label {
+  color: #000;
+  text-align: center;
+  font-family: Inter;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.msg-mkt label {
+  color: #000;
+  text-align: center;
+  font-family: Inter;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.input-mkt input {
+  border-radius: 20px;
+  background: #f1f1f1;
+  flex-shrink: 0;
+}
+
+.add-prof-box ez-edit-form-fields .row {
+  background: #ddd;
+  display: flex;
+  justify-content: center;
+}
+
+.icon-helth img#Image {
+  max-width: 40px;
+  max-height: 40px;
+  width: auto;
+  height: auto;
+}
+
+.especiality-label:hover,
+.especiality-label label:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.dropdown2-menu {
+  font-size: 14px;
+  text-align: center;
+  list-style: none;
+  background-color: #bdded5;
+}
+
+.box .group-box {
+  z-index: initial;
+}
+
+.pro-name-child {
+  cursor: pointer;
+}
+
+.pro-name-child:hover {
+  text-decoration: underline;
+}
+
+.drop-busca-local {
+  margin: 0;
+  height: fit-content;
+}
+
+.drop-busca-local select,
+.drop-busca-local input {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #000;
+  border-radius: 0;
+}
+
+.drop-busca .dropdown2-menu {
+  border: 1px solid #d7d7d7 !important;
+}
+
+.drop-busca .dropdown-item.active {
+  color: #000;
+  background-color: #a7d4c6;
+}
+
+.drop-busca input,
+.drop-busca input:focus {
+  background: transparent;
+  border-radius: 0;
+}
+
+.drop-busca-local select:focus,
+.drop-busca-local input:focus {
+  background: transparent;
+  box-shadow: none;
+}
+
+.pagelocation-dot {
+  max-width: fit-content;
+  padding: 0;
+  margin: 0;
+  margin-block: auto !important;
+  height: fit-content;
+}
+
+.drop-busca-local ez-autocomplete br {
+  display: none;
+}
+
+.drop-busca-local select,
+.drop-busca-local input {
+  text-align: center;
+}
+
+.search-container-Schedule {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.search-container-Schedule .search-icon {
+  position: absolute;
+  right: 1.5rem;
+  font-size: 15px;
+  color: #000;
+  cursor: pointer;
+}
+
+.input-search-profissional-child {
+  padding-right: 30px;
+}
+
+.profile-image {
+  height: 100px;
+}
+
+@media screen and (min-width: 1920px) {
+  .main-box {
+    max-width: 1600px;
+  }
+}
+
+@media (max-width: 991px) {
+  .repeater-showcardsprofiles-content {
+    display: flex;
+    justify-content: center;
+  }
+
+  .show-cards-profiles {
+    width: 100%;
+    max-width: 80%;
+  }
+
+  .title-cards-header {
+    padding: 0px 0px 0px 15px !important;
+  }
+
+  .box-header-child {
+    padding: 0 15px 0 15px !important;
+  }
+
+  .main-box-child {
+    padding-inline: 1rem;
+  }
+}
+
+@media (max-width: 575px) {
+  .repeater-showcardsprofiles {
+    justify-content: center;
+  }
+
+  .title-cards-header-child {
+    text-align: center;
+  }
+
+  .search-title-profissional-child {
+    font-size: 20px;
+  }
+}

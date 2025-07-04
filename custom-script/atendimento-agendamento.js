@@ -2,7 +2,7 @@ let valores;
 function onLoadForm() {
     window.AtendimentoAgendado = this;
     let idFromCalendar = sessionStorage.getItem('idFromCalendar');
-    if(AtendimentoAgendado.session) {
+    if (AtendimentoAgendado.session) {
         console.log('id', AtendimentoAgendado.session.Scheduling_timeId);
     }
     AtendimentoAgendado.getField('RecebeDoCalendario').setValue(idFromCalendar);
@@ -33,22 +33,22 @@ window.confirm = () => {
 
 
 function valoresDoModal() {
-//   let intervalId = setInterval(() => {
-//     if (AtendimentoAgendado.getField) {
-//       let objeto = AtendimentoAgendado.getField('RepeaterAtendimento')[0].value[0];
-//       if(!objeto.SemConvenio || objeto.SemConvenio === '') {
-//         AtendimentoAgendado.entity.SemConvenio = "Sem Convênio";
-//       }
-//       valores = objeto;
-//       clearInterval(intervalId);
-//     }
-//   }, 800);
+    //   let intervalId = setInterval(() => {
+    //     if (AtendimentoAgendado.getField) {
+    //       let objeto = AtendimentoAgendado.getField('RepeaterAtendimento')[0].value[0];
+    //       if(!objeto.SemConvenio || objeto.SemConvenio === '') {
+    //         AtendimentoAgendado.entity.SemConvenio = "Sem Convênio";
+    //       }
+    //       valores = objeto;
+    //       clearInterval(intervalId);
+    //     }
+    //   }, 800);
 
 }
 
 function afterApiCall(response) {
-    console.log('alguma resposta',this.response);
-    console.log('alguma resposta2',response);
+    console.log('alguma resposta', this.response);
+    console.log('alguma resposta2', response);
 }
 
 // Pop-up de confirmação de cancelamento
@@ -60,11 +60,11 @@ function CancellationNotification() {
     // Ajustar z-index do modal
     Swal.fire({
         title: "Regras de cancelamento",
-        position: "center", 
+        position: "center",
         html: "-Estorno Total, se cancelado com mais de 24 horas de antecedência do horário reservado.<br>" +
-              "-Estorno de 60%, se cancelado com menos de 24 horas de antecedência do horário reservado.<br>" +
-              "-Sem estorno se cancelado com menos de 3 horas de antecedência ou No-Show.",
-        icon: "warning", 
+            "-Estorno de 60%, se cancelado com menos de 24 horas de antecedência do horário reservado.<br>" +
+            "-Sem estorno se cancelado com menos de 3 horas de antecedência ou No-Show.",
+        icon: "warning",
         showCancelButton: true,
         confirmButtonText: "Sim, cancelar",
         cancelButtonText: "Não, voltar",
@@ -79,7 +79,7 @@ function CancellationNotification() {
     }).then((result) => {
         window.__isCancelling__ = false;
 
-        if (result.isConfirmed) { 
+        if (result.isConfirmed) {
             console.log('confirmou', result.isConfirmed);
             AtendimentoAgendado.getField("Cancelar").setValue(true);
             AtendimentoAgendado.getField("Confirmar").setValue(false);
@@ -95,7 +95,7 @@ function CancellationNotification() {
                 icon: "success",
                 showConfirmButton: false,
                 timer: 2000
-            }).then(()=> {
+            }).then(() => {
                 if (window.dialogInstance) {
                     window.dialogInstance.close();
                 } else {
@@ -106,13 +106,13 @@ function CancellationNotification() {
 
 
         } else if (result.dismiss === Swal.DismissReason.cancel) {
-            
+
             Swal.fire({
                 title: "Cancelamento Abortado",
-                position: "center", 
+                position: "center",
                 text: "O cancelamento foi abortado pelo usuário",
                 icon: "info",
-                showConfirmButton: false, 
+                showConfirmButton: false,
                 timer: 2000
             });
             if (window.dialogInstance) {
@@ -125,7 +125,7 @@ function CancellationNotification() {
 }
 
 
-function setTextOfSerciceDate () {
+function setTextOfSerciceDate() {
     const atendimento = AtendimentoAgendado.getField('RepeaterAtendimento')[0].value || [];
 
     if (atendimento.length > 0) {
@@ -138,18 +138,20 @@ function setTextOfSerciceDate () {
         const dataObjUtc = new Date(dataIso);
         const partesHora = horaStr.split(':'); // ["13", "00", "00"]
 
-        // Cria novo objeto Date com hora ajustada
-        const dataLocal = new Date(
-            dataObjUtc.getFullYear(),
-            dataObjUtc.getMonth(),
-            dataObjUtc.getDate(),
-            parseInt(partesHora[0]),
-            parseInt(partesHora[1])
-        );
+        // Cria data ajustada a partir do valor UTC, ignorando o shift de fuso
+        const dataUtc = new Date(Date.UTC(
+            dataObjUtc.getUTCFullYear(),
+            dataObjUtc.getUTCMonth(),
+            dataObjUtc.getUTCDate(),
+            parseInt(partesHora[0], 10),
+            parseInt(partesHora[1], 10)
+        ));
+        // Agora transforma a data UTC em local para exibição correta
+        const dataLocal = new Date(dataUtc.toLocaleString('en-US', { timeZone: 'America/Sao_Paulo' }));
 
         const diasSemana = ['domingo', 'segunda-feira', 'terça-feira', 'quarta-feira', 'quinta-feira', 'sexta-feira', 'sábado'];
         const meses = ['janeiro', 'fevereiro', 'março', 'abril', 'maio', 'junho',
-                       'julho', 'agosto', 'setembro', 'outubro', 'novembro', 'dezembro'];
+            'julho', 'agosto', 'setembro', 'outubro', 'novembro', 'dezembro'];
 
         const diaSemana = diasSemana[dataLocal.getDay()];
         const dia = dataLocal.getDate();
@@ -169,7 +171,7 @@ function setTextOfSerciceDate () {
     }
 }
 
-function saveConfirmation(keepAppointment , cancelAppointment) {
+function saveConfirmation(keepAppointment, cancelAppointment) {
     const confirmObjTosave = {
         scheduling_timeId: AtendimentoAgendado.entity.RecebeDoCalendario,
         Canceled: cancelAppointment,

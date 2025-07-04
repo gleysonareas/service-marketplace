@@ -1,0 +1,1035 @@
+:root {
+  --mp-light-light: #fafafa;
+  --mp-primary-0: #05a8a8;
+  --mp-primary-3: #f1f8f8;
+  --mp-light-gray-2: hsl(0, 0%, 96%);
+  --mp-dark-0: #171a3b;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+/* Estilo para os dias e horários ****************************************** */
+label.custom-day {
+  width: 100%;
+}
+
+.repeater-ListaHour-content {
+  display: flex;
+  flex-wrap: wrap;
+  /*ap: 5px;*/
+  justify-content: flex-start;
+}
+
+.repeater-ListaHour-content > * {
+  flex: 0 1 calc(25% - 0px);
+  box-sizing: border-box;
+}
+
+label.custom-ValorAtendimento1.ng-star-inserted {
+  margin-top: 8px;
+}
+
+.search-icon {
+  cursor: pointer;
+}
+
+.category-result-price {
+  position: relative;
+}
+
+.category-result-price::before {
+  content: "R$";
+  position: absolute;
+  left: 10px;
+  top: 49%;
+  transform: translateY(-50%);
+  font-family: "Roboto", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  pointer-events: none;
+}
+
+.category-result-price input {
+  border: none;
+  padding-left: 40px;
+  /* espaço para o 'R$' */
+  padding-right: 15px;
+  font-family: "Roboto", sans-serif;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  pointer-events: none;
+  line-height: normal;
+  letter-spacing: -0.4px;
+  background-color: transparent;
+}
+
+/* **************************************************************************** */
+.nav-bar-mp {
+  background: var(--mp-dark-0, #171a3b) !important;
+}
+
+.box-header {
+  height: 40px;
+}
+
+/* .box-header .row {
+    flex-wrap: nowrap;
+    padding: 0 15px 0 15px;
+} */
+
+/* .custom-ImageInput1 {
+    width: 15rem;
+    height: 15rem;
+} */
+
+.container-image-social-child {
+  min-width: 12rem;
+}
+
+.icon-helth img#Image {
+  max-width: 40px;
+  max-height: 40px;
+  width: auto;
+  height: auto;
+}
+
+starfillicon svg {
+  margin-right: 0px;
+}
+
+/* Novo estilo ****************************************** */
+/* .professional-box {
+    display: flex;
+    max-width: 80%;
+    margin-left: 3rem
+} */
+
+.custom-day {
+  margin-left: -2rem;
+}
+
+.custom-RepeaterArea {
+  margin-top: -2.35rem;
+  margin-left: 2rem;
+}
+
+.schedules {
+  margin-left: -2rem;
+}
+
+.custom-SeeSchedule {
+  font-size: 16px;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.select-category select {
+  padding-left: 20px;
+}
+
+.select-category select:focus {
+  box-shadow: none;
+}
+
+/* ****************************************** */
+
+.custom-Repeaterproficcionais1 {
+  align-items: center;
+}
+
+.custom-ValorAtendimento1 {
+  padding-right: 5px;
+  margin-left: 1.3rem;
+}
+
+.bg-body {
+  background: #f5f5f5;
+  margin: auto;
+}
+
+.label-truncate label {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-height: calc(1.5em * 2);
+  cursor: pointer;
+}
+
+.label-full {
+  display: block !important;
+  -webkit-line-clamp: unset !important;
+  -webkit-box-orient: unset !important;
+  overflow: visible !important;
+  max-height: none !important;
+}
+
+.label-truncate,
+.label-full {
+  transition: max-height 0.3s ease;
+}
+
+.title label {
+  color: var(--mp-dark-0, #171a3b);
+  font-family: Open Sans;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.64px;
+}
+
+.box-axiom {
+  border-radius: 40px;
+  background: var(--mp-light-gray-2);
+}
+
+.box-axiom div {
+  margin-top: 0;
+}
+
+/* .bord-bottom {
+    border-bottom: 1px solid black;
+} */
+
+.form-group-Especialidade,
+.form-group-TextSearch {
+  border-bottom: 1px solid;
+}
+
+.input-search-profissional input {
+  font-family: "Roboto", sans-serif;
+  background: transparent !important;
+  width: 95%;
+  border: none;
+  z-index: 999;
+  /* margin-left: -15px; */
+  font-size: 16px;
+  font-weight: 600;
+  padding: 10;
+}
+
+.input-search-profissional input:focus {
+  outline: 0;
+  box-shadow: initial;
+}
+
+.input-search-profissional ez-autocomplete > div > input::placeholder {
+  color: #3a3c54;
+}
+
+.pro-name label:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.input-search-profissional input::placeholder {
+  color: #3a3c54;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.48px;
+}
+
+.drop-busca .dropdown2-menu {
+  box-shadow: 1px 1px #c8c8c8;
+  border: 1px solid #d7d7d7 !important;
+}
+
+.drop-busca .dropdown-item.active {
+  color: #000;
+  background-color: #a7d4c6;
+}
+
+.drop-busca input,
+.drop-busca input:focus {
+  background: transparent;
+  border-radius: 0;
+}
+
+.drop-busca-local select:focus,
+.drop-busca-local input:focus {
+  background: transparent;
+  box-shadow: none;
+}
+
+.drop-busca-local ez-autocomplete br {
+  display: none;
+}
+
+.drop-busca-local select,
+.drop-busca-local input {
+  text-align: center;
+}
+
+.select-category select {
+  border: none;
+  background-color: transparent;
+}
+
+.select-category > input {
+  border: none;
+  background-color: transparent;
+}
+
+.btn-search-profissional {
+  width: 20px;
+  height: 20px;
+}
+
+.btn-search-profissional button:focus {
+  box-shadow: initial;
+}
+
+.box-search-profissional div {
+  margin: 0;
+  padding: 0;
+  display: block;
+}
+
+.box-search-profissional .container-fluid {
+  padding: 0;
+  margin-top: 0.5rem;
+}
+
+.box-search-profissional button.btn.btn-primary.btn-block.formFieldButton {
+  width: min-content;
+  padding: 0;
+  margin: 0;
+  background: transparent;
+  color: #a59a9a;
+  border: none;
+}
+
+.btn-search-profissional i {
+  width: auto;
+  height: auto;
+  flex-shrink: 0;
+  font-size: 2em;
+  padding: 4px;
+  margin-top: -0.5rem;
+  margin-right: -6rem;
+  color: #000;
+}
+
+.category-btn {
+  display: flex;
+  margin-left: -2rem;
+}
+
+.category-btn > div {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.category-btn > div > a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.category-btn > div > a > span {
+  padding: 8px 0px;
+  font-size: 1.3em;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.4px;
+}
+
+.font-search {
+  color: var(--mp-dark-0, #171a3b);
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.48px;
+}
+
+/* .input-search-profissional input {
+    background: transparent;
+    border: none;
+    z-index: 9999;
+}
+
+.input-search-profissional input::placeholder {
+    color: #3A3C54;
+    font-size: 1rem;
+}
+
+.input-search-profissional ez-autocomplete>div>input::placeholder {
+    color: #3A3C54;
+    font-size: 1rem;
+}
+
+.input-search-profissional input:focus {
+    border: none;
+    cursor: default;
+    box-shadow: initial;
+} */
+
+.location {
+  display: flex;
+  align-items: end;
+  justify-content: end;
+}
+
+.circle-image {
+  width: fit-content;
+}
+
+.circle-image img {
+  line-height: 50px !important;
+  letter-spacing: 0px !important;
+  background-color: #e0dddd !important;
+  border-radius: 50% !important;
+  height: 15rem;
+}
+
+.card {
+  border: none;
+  background-color: transparent;
+}
+
+.circle-image .card .card-footer {
+  /* display: none !important; */
+}
+
+.circle-image .card .card-img {
+  height: 200px !important;
+  width: 200px !important;
+  border-radius: 100px;
+}
+
+.card-profissional {
+  border-radius: 8px;
+  background: var(--mp-light-light, #fafafa);
+  box-shadow: 0px 0px 4px #8f8d8d33 !important;
+  margin-bottom: 1rem;
+}
+
+/* .box-profissional-info .row {
+    margin: 0;
+} */
+
+.box-image {
+  text-align: center;
+}
+
+.title-bold label {
+  color: #171a3b;
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.48px;
+}
+
+.container-clinic-name-child {
+  color: #3a3c54;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.4px;
+}
+
+.crm {
+  margin-bottom: 0;
+}
+
+.btn-fa-commenting {
+  padding: 0 !important;
+}
+
+.btn-fa-commenting button {
+  background: none;
+  border: none;
+  /* margin: -9px; */
+}
+
+.btn-fa-commenting i {
+  background: none;
+  color: #05a8a8;
+  border: 1px solid #05a8a8;
+  padding: 1rem;
+  border-radius: 50%;
+  transition: all 0.3s;
+  font-size: 20px;
+}
+
+.btn-fa-commenting i:hover {
+  transform: scale(1.1);
+}
+
+.text-regular label {
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.32px;
+}
+
+.font-gray label {
+  color: #5d6187;
+  font-family: "Roboto", sans-serif;
+}
+
+.subtitle-regular label,
+.subtitle-regular span {
+  font-family: "Roboto", sans-serif;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.4px;
+}
+
+.btn-category button {
+  padding: 16px;
+}
+
+.btn-category button:hover {
+  opacity: 0.8;
+}
+
+.nowrap label {
+  text-wrap: nowrap;
+}
+
+.box-filter div {
+  margin: 0;
+  padding: 0;
+}
+
+/* .classificar .row {
+    justify-content: flex-end;
+} */
+
+.card-clinic {
+  border-radius: 4px;
+}
+
+/* .card-clinic div */
+.custom-RepeaterLocations {
+  background: #eff0f9;
+  border: 0px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.text-ciano label {
+  color: var(--mp-primary-0, #05a8a8);
+  min-width: 100px;
+}
+
+.form-group-GroupBox11 {
+  margin-top: -1rem;
+}
+
+.see-on-map label {
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.24px;
+  text-decoration-line: underline;
+}
+
+.location-html {
+  width: min-content;
+  display: flex;
+  flex: 0;
+}
+
+.schedule-time div {
+  border: 0px;
+  margin: 0px !important;
+  padding: 0px;
+}
+
+.schedule-time label {
+  margin-bottom: 0px !important;
+  border-radius: 8px;
+  border: 1px solid var(--light-gray-1, #ddd);
+  background: var(--light-light, #fafafa);
+  padding: 10px;
+  font-size: 15px;
+}
+
+.repe-clinic > ez-edit-form-fields > div {
+  padding: 14px !important;
+  /* margin-left: 18.3rem; */
+  /* min-width: 100%; */
+  /* margin-top: -9rem; */
+}
+
+.rep-time-box > div > ez-edit-form-fields > div > div > ez-repeater > div {
+  display: flex;
+  gap: 10px;
+  /* margin: 13px!important; */
+}
+
+.rep-time-box .group-box {
+  margin-top: 0;
+}
+
+.fa-search {
+  font-size: 15px;
+}
+
+.custom-Especialidade,
+.custom-TextSearch {
+  display: inline;
+}
+
+.custom-Especialidade:focus,
+.custom-TextSearch:focus {
+  background-color: transparent;
+}
+
+/* .commenting {
+    display: grid;
+    place-content: center;
+} */
+
+.custom-Button2 {
+  width: auto;
+}
+
+.custom-HTMLField11 svg {
+  margin-right: 3px;
+}
+
+.custom-HTMLField3 svg {
+  margin-right: 0;
+}
+
+.custom-ProximosHorarios1 {
+  font-size: 20px !important;
+}
+
+.profissional-title {
+  margin-bottom: 0;
+  margin-top: 1.5rem;
+  padding-left: 0;
+}
+
+.custom-ClinicEdd {
+  font-size: 16px !important;
+}
+
+.global-label a:hover {
+  background-color: transparent !important;
+}
+
+/* .form-group-leftsidecontainer {
+    flex: 0 0 70% !important;
+    max-width: 70% !important;
+} */
+
+/* .form-group-GroupBoxAtendimento1 {
+    flex: 0 0 30% !important;
+    max-width: 30% !important;
+} */
+
+.drop-busca-local {
+  margin: 0;
+  height: fit-content;
+}
+
+.drop-busca-local select,
+.drop-busca-local input {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #000;
+  border-radius: 0;
+  /* text-align-last: center; */
+}
+
+.drop-busca-local select:focus,
+.drop-busca-local input:focus {
+  background: transparent;
+  box-shadow: none;
+}
+
+.pagelocation-dot {
+  max-width: fit-content;
+  padding: 0;
+  margin: 0;
+  margin-block: auto !important;
+  height: fit-content;
+}
+
+.drop-busca-local ez-autocomplete br {
+  display: none;
+}
+
+.drop-busca-local select,
+.drop-busca-local input {
+  text-align: center;
+}
+
+.rating {
+  color: #05a8a8;
+}
+
+.rating-box {
+  margin-top: -25px !important;
+}
+
+.rating-box .btn {
+  background-color: transparent !important;
+  border: none !important;
+}
+
+.rating-box i {
+  color: #05a8a8 !important;
+  font-size: 18px;
+}
+
+.bt {
+  margin-left: -40px;
+}
+
+.bt1 {
+  margin-left: -60px;
+}
+
+/* .hours-container-child {
+    margin: 0;
+} */
+
+.repeater-RepeaterLocations-content {
+  gap: 1rem;
+}
+
+.category-schedule-box-child {
+  justify-content: center;
+}
+
+.custom-RepeaterLocations {
+  height: 122px;
+}
+
+.container-image-profile-child {
+  cursor: pointer;
+}
+
+@media (max-width: 1600px) {
+  .container-clinic-name-child {
+    font-size: 16px;
+  }
+
+  .schedule-time label {
+    font-size: 13px;
+  }
+
+  .circle-image img {
+    height: 12rem;
+  }
+}
+
+@media (min-width: 1121px) and (max-width: 1230px) {
+  .repeater-ListaHour-content > * {
+    flex: 0 1 calc(30% - 0px);
+  }
+
+  .form-group-GroupBoxAtendimento1 {
+    padding: 8rem;
+  }
+
+  .professional-box {
+    margin-left: 5rem;
+  }
+}
+
+@media (min-width: 995px) and (max-width: 1120px) {
+  .repeater-ListaHour-content > * {
+    flex: 0 1 calc(50% - 0px);
+  }
+
+  .professional-box {
+    max-width: 100%;
+    margin-left: 5rem;
+  }
+
+  /* .repe-clinic>ez-edit-form-fields>div {
+        margin-left: 16.3rem;
+    } */
+  .rep-time-box,
+  .category-btn {
+    padding: 0 !important;
+  }
+
+  .custom-profissionalinfo1 {
+    margin: 0 !important;
+  }
+}
+
+/* @media (max-width: 1024px) {} */
+
+@media (max-width: 994px) {
+  .repeater-ListaHour-content > * {
+    flex: 0 1 calc(25% - 0px);
+  }
+
+  .form-group-leftsidecontainer {
+    flex: 0 0 100% !important;
+    max-width: 100% !important;
+  }
+
+  .form-group-EspecialidadeName,
+  .form-group-HTMLField3 {
+    margin-left: 0 !important;
+  }
+
+  .form-group-GroupBoxAtendimento1 {
+    flex: 0 0 100% !important;
+    max-width: 100% !important;
+  }
+
+  .profissional-title {
+    margin-left: 1rem;
+  }
+
+  .form-group-GroupBox4 {
+    margin: 0 1.8rem;
+  }
+
+  .form-group-leftsidecontainer {
+    min-width: 100%;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .custom-ProfissionalName1 {
+    text-align: center;
+  }
+
+  .custom-GroupBox1 {
+    display: block;
+  }
+
+  .rating,
+  .form-group-Professional_Bio1 {
+    display: flex;
+    justify-content: center;
+  }
+
+  .professional-box,
+  .form-group-ServiceValue1 {
+    display: flex;
+    text-align: center;
+    margin: auto;
+    justify-content: center;
+  }
+
+  .custom-GroupBoxBody {
+    padding: 0rem 2rem;
+  }
+
+  .all-nav {
+    padding: 2.5rem 4.5rem !important;
+  }
+
+  .icon-helth {
+    margin-left: 1.5rem !important;
+  }
+
+  .form-group-GroupBoxAtendimento1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    margin: auto;
+    padding: 0 2rem !important;
+  }
+
+  .category-btn {
+    margin-left: 0;
+  }
+
+  .custom-HTMLFieldCalendar1 svg {
+    margin-left: 1.5rem !important;
+  }
+
+  .schedules {
+    margin-left: 1.5rem !important;
+  }
+
+  .professional-box,
+  .form-group-ServiceValue1 {
+    padding-left: unset !important;
+  }
+
+  ez-edit-form-fields {
+    overflow: unset !important;
+  }
+
+  .repe-clinic > ez-edit-form-fields > div {
+    margin-left: 0;
+    margin-top: 0;
+  }
+
+  .custom-CategoryLabel,
+  .custom-Bar {
+    margin-left: 1rem;
+  }
+
+  .category-schedule-box .container-fluid {
+    margin-top: 0;
+  }
+
+  .custom-GroupBoxAtendimento1 {
+    width: 80%;
+    margin: 0 auto !important;
+  }
+
+  .rep-time-box ez-edit-form-fields {
+    overflow: initial;
+  }
+
+  .custom-leftsidecontainer {
+    column-gap: 6rem;
+  }
+}
+
+@media (max-width: 991px) {
+  .container-image-profile ez-img-input .card-img {
+    max-width: 12rem;
+  }
+
+  .professional-box-child {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .bt,
+  .bt1 {
+    margin-left: -15px !important;
+  }
+
+  .professional-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-right: 0;
+  }
+
+  .rating-box {
+    margin-left: 80px !important;
+  }
+
+  .input-search-profissional input {
+    width: 85%;
+  }
+
+  .category-body-child {
+    padding: 0;
+  }
+
+  .profissional-title {
+    margin-left: 0;
+    padding-right: 0;
+    text-align: center;
+  }
+
+  .profissional-title-child {
+    font-size: 26px !important;
+  }
+
+  .pro-name-child {
+    font-size: 18px;
+  }
+
+  .category-result-price {
+    max-width: 100%;
+  }
+
+  .category-result-price::before {
+    left: 35%;
+    transform: translateX(-35%);
+    top: 27%;
+  }
+
+  .category-result-price-child {
+    text-align: center !important;
+  }
+
+  .container-clinic-name-child {
+    font-size: 14px;
+  }
+
+  .category-schedule-box {
+    padding: 0 !important;
+  }
+
+  .category-schedule-box > .container-fluid {
+    padding: 0 !important;
+  }
+
+  .category-schedule-box-child {
+    width: 100%;
+    margin: 0;
+    align-items: center;
+    flex-direction: column;
+    gap: 6px;
+  }
+
+  .category-btn-child span {
+    font-size: 12px;
+  }
+
+  .html-calendar-icon {
+    margin: 0 !important;
+    padding: 0;
+  }
+
+  .schedules-title-child {
+    font-size: 16px !important;
+  }
+
+  .next-hours-container {
+    text-align: center !important;
+  }
+
+  .custom-day {
+    text-align: left;
+  }
+
+  .custom-ListDays {
+    justify-content: center;
+  }
+
+  .days-container {
+    margin-left: 1.5rem !important;
+  }
+
+  .custom-HTMLFieldCalendar1 svg {
+    margin-left: 0 !important;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 372px) {
+  .custom-ProximosHorarios1 {
+    font-size: 16px !important;
+  }
+
+  .card-clinic div {
+    margin-right: 3px !important;
+  }
+}
