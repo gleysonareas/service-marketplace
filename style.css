@@ -1,37 +1,38 @@
 :root {
-    --mp-dark-0: #171A3B;
-    --mp-primary-0: #05a8a8;
-    --mp-light-gray-2: #e0e0e0;
-    --mp-light-light: #FAFAFA;
-    --light-gray-1: #ddd;
-    --font-gray: #3a3c54;
-    --shadow-gray: #8f8d8d33;
-    --dropdown-shadow: #c8c8c8;
-    --dropdown-border: #d7d7d7;
-    --bg-body: #f5f5f5;
-    --font-roboto: "Roboto", sans-serif;
-    --font-open-sans: "Open Sans", sans-serif;
-    --font-size-large: 24px;
-    --font-size-medium: 16px;
-    --font-size-small: 13px;
-    --font-size-xsmall: 12px;
-    --font-size-medium-plus: 0.9375rem; /* 15px */
-    --font-size-xlarge: 2rem; /* 32px */
-    --font-size-xxlarge: 2.5rem; /* 40px */
-    --font-weight-normal: 400;
-    --font-weight-medium: 500;
-    --font-weight-bold: 700;
-    --border-radius-large: 40px;
-    --border-radius-medium: 8px;
-    --border-radius-small: 4px;
-    --transition-ease: 0.3s ease;
-    --mp-primary-3: #F1F8F8;
-    --mp-secondary-0: #8BF0D1;
-    --font-gray-secondary: #5d6187;
-    --text-black: #000;
-    --input-bg: #f1f1f1;
-    --profissional-area-bg: #d5f2ea;
-    --dropdown-active-bg: #a7d4c6;
-    --dropdown-menu-bg: #bdded5;
-    --gradient-search: linear-gradient(135deg, #c0e3db 0%, #8ec9c0 100%);
+  --mp-dark-0: #171a3b;
+  --mp-primary-0: #05a8a8;
+  --mp-light-gray-2: #e0e0e0;
+  --mp-light-light: #fafafa;
+  --light-gray-1: #ddd;
+  --font-gray: #3a3c54;
+  --shadow-gray: #8f8d8d33;
+  --dropdown-shadow: #c8c8c8;
+  --dropdown-border: #d7d7d7;
+  --bg-body: #f5f5f5;
+  --font-roboto: "Roboto", sans-serif;
+  --font-open-sans: "Open Sans", sans-serif;
+  --font-size-large: 24px;
+  --font-size-medium: 16px;
+  --font-size-small: 13px;
+  --font-size-xsmall: 12px;
+  --font-size-medium-plus: 1rem; /* 16px se a raiz não foi alterada */
+  --font-size-xlarge: 2rem; /* 32px */
+  --font-size-xxlarge: 2.5rem; /* 40px */
+  --font-weight-normal: 400;
+  --font-weight-medium: 500;
+  --font-weight-bold: 700;
+  --border-radius-large: 40px;
+  --border-radius-medium: 8px;
+  --border-radius-small: 4px;
+  --transition-ease: 0.3s ease;
+  --mp-primary-3: #f1f8f8;
+  --mp-secondary-0: #8bf0d1;
+  --font-gray-secondary: #5d6187;
+  --text-black: #000;
+  --input-bg: #f1f1f1;
+  --profissional-area-bg: #d5f2ea;
+  --dropdown-active-bg: #a7d4c6;
+  --dropdown-menu-bg: #bdded5;
+  --gradient-search: linear-gradient(135deg, #c0e3db 0%, #228b7c 100%);
+  --shadow-service: rgba(165, 165, 165, 0.25);
 }
