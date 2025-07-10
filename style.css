@@ -37,4 +37,8 @@
   --gradient-search: linear-gradient(135deg, #c0e3db 0%, #228b7c 100%);
   --shadow-service: rgba(165, 165, 165, 0.25);
   --shadow-card: #cecece;
+  --gray-button: #a59a9a;
+  --border-radius-circle: 6.25rem;
+  --font-size-tiny: 0.9375rem;
+  --font-size-medium-large: 1.3rem;
 }
