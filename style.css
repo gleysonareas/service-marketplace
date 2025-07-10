@@ -15,7 +15,8 @@
   --font-size-medium: 16px;
   --font-size-small: 13px;
   --font-size-xsmall: 12px;
-  --font-size-medium-plus: 1rem; /* 16px se a raiz não foi alterada */
+  --font-size-medium-plus: 1rem; /* 16px */
+  --font-size-large-plus: 1.25rem; /* 20px */
   --font-size-xlarge: 2rem; /* 32px */
   --font-size-xxlarge: 2.5rem; /* 40px */
   --font-weight-normal: 400;
@@ -35,4 +36,5 @@
   --dropdown-menu-bg: #bdded5;
   --gradient-search: linear-gradient(135deg, #c0e3db 0%, #228b7c 100%);
   --shadow-service: rgba(165, 165, 165, 0.25);
+  --shadow-card: #cecece;
 }
