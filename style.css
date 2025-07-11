@@ -41,4 +41,7 @@
   --border-radius-circle: 6.25rem;
   --font-size-tiny: 0.9375rem;
   --font-size-medium-large: 1.3rem;
+  --font-size-medium-xlarge: 1.625rem;
+  --font-size-small-plus: 1.125rem;
+  --font-size-tiny-plus: 0.875rem;
 }

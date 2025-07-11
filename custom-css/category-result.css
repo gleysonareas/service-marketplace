@@ -12,6 +12,10 @@
   box-sizing: border-box;
 }
 
+.cr-location-box .repeater-RepeaterLocations-content {
+  gap: 1rem;
+}
+
 .cr-repe-clinic {
   border-radius: var(--border-radius-small);
 }
@@ -26,11 +30,12 @@
 }
 
 .cr-text-regular-child {
-  text-align: center;
+  font-family: var(--font-roboto);
   font-size: var(--font-size-medium);
   font-weight: var(--font-weight-normal);
   line-height: normal;
   letter-spacing: -0.02rem;
+  text-align: center;
 }
 
 .cr-font-gray-child {
@@ -213,7 +218,7 @@
   margin: auto;
 }
 
-.cr-label-truncate label {
+.cr-label-truncate-child {
   display: -webkit-box;
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
@@ -221,18 +226,19 @@
   text-overflow: ellipsis;
   max-height: calc(1.5em * 2);
   cursor: pointer;
+  transition: max-height var(--transition-ease);
 }
 
-.cr-label-full {
+.cr-label-full-child {
   display: block !important;
   -webkit-line-clamp: unset !important;
   -webkit-box-orient: unset !important;
   overflow: visible !important;
   max-height: none !important;
+  transition: max-height var(--transition-ease);
 }
 
-.cr-label-truncate,
-.cr-label-full {
+.cr-description-child {
   transition: max-height var(--transition-ease);
 }
 
@@ -472,7 +478,7 @@
   color: var(--mp-primary-0);
 }
 
-.cr-rating-child {
+.cr-rating i {
   font-size: var(--font-size-large);
 }
 
@@ -496,7 +502,7 @@
 
 @media (min-width: 1121px) and (max-width: 1230px) {
   .cr-days-container-child .repeater-ListaHour-content > * {
-    flex: 0 1 calc(30% - 0px);
+    flex: 0 1 calc(28% - 0px);
   }
 
   .cr-category-schedule-box {
@@ -510,7 +516,7 @@
 
 @media (min-width: 995px) and (max-width: 1120px) {
   .cr-days-container-child .repeater-ListaHour-content > * {
-    flex: 0 1 calc(50% - 0px);
+    flex: 0 1 calc(28% - 0px);
   }
 
   .cr-professional-box {
@@ -529,12 +535,56 @@
 }
 
 @media (max-width: 994px) {
-  .cr-days-container-child .repeater-ListaHour-content > * {
-    flex: 0 1 calc(25% - 0px);
+  .cr-coin-type-child {
+    margin-left: 3.3rem;
   }
 
-  .all-nav {
-    padding: 2.5rem 4.5rem !important;
+  .cr-category-result-price {
+    max-width: 20%;
+  }
+
+  .cr-container-image-social {
+    margin-left: -6rem;
+  }
+
+  .cr-left-side-container-child {
+    justify-content: center;
+  }
+
+  .cr-professional-box-child {
+    justify-content: center;
+  }
+
+  .cr-select-category,
+  .cr-box-search-profissional,
+  .cr-repe-clinic,
+  .cr-box-profissional-info {
+    flex: 1 0 auto;
+  }
+
+  .cr-box-profissional-info {
+    max-width: 100%;
+  }
+
+  .cr-box-search-profissional {
+    max-width: 100%;
+  }
+
+  .cr-select-category {
+    max-width: 50%;
+  }
+
+  .cr-repe-clinic {
+    max-width: 48%;
+  }
+
+  .cr-rating .rating {
+    justify-content: center;
+  }
+
+  .cr-day-child,
+  .cr-container-clinic-name {
+    text-align: left;
   }
 
   .cr-icon-health,
@@ -543,8 +593,13 @@
     margin-left: 1.5rem !important;
   }
 
+  .cr-schedules {
+    max-width: 30%;
+  }
+
   .cr-category-btn {
     margin-left: 0;
+    padding-inline: 0;
   }
 
   .cr-left-side-container,
@@ -574,9 +629,10 @@
 
   .cr-pro-name-child,
   .cr-rating,
-  .cr-description,
-  .cr-professional-box {
-    text-align: center;
+  .cr-description-child,
+  .cr-professional-box,
+  .cr-next-hours-container-child {
+    text-align: center !important;
   }
 
   .cr-professional-box {
@@ -602,11 +658,6 @@
     margin-top: 0;
   }
 
-  .cr-category-schedule-box-child {
-    width: 80%;
-    margin: 0 auto !important;
-  }
-
   .cr-rep-time-box ez-edit-form-fields {
     overflow: initial;
   }
@@ -626,15 +677,15 @@
     flex-direction: column;
     align-items: center;
   }
+
+  .cr-container-image-social {
+    margin-left: 0;
+  }
 }
 
 @media (max-width: 768px) {
   .cr-professional-box {
     padding-right: 0;
-  }
-
-  .cr-rating-box {
-    margin-left: 5rem !important;
   }
 
   .cr-input-search-profissional-child {
@@ -652,11 +703,11 @@
   }
 
   .cr-profissional-title-child {
-    font-size: 1.625rem !important;
+    font-size: var(--font-size-medium-xlarge) !important;
   }
 
   .cr-pro-name-child {
-    font-size: 1.125rem;
+    font-size: var(--font-size-small-plus);
   }
 
   .cr-category-result-price {
@@ -674,7 +725,7 @@
   }
 
   .cr-container-clinic-name-child {
-    font-size: 0.875rem;
+    font-size: var(--font-size-tiny-plus);
   }
 
   .cr-category-schedule-box,
@@ -707,10 +758,6 @@
     text-align: center !important;
   }
 
-  .cr-day-child {
-    text-align: left;
-  }
-
   .cr-days-container-child {
     justify-content: center;
   }
@@ -720,7 +767,32 @@
   }
 
   .cr-html-calendar-icon-child svg {
+    margin: 0 !important;
+  }
+
+  .cr-schedules {
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+@media (max-width: 476px) {
+  .cr-repe-clinic {
+    max-width: 100% !important;
+  }
+
+  .cr-coin-type-child {
     margin-left: 0 !important;
+  }
+
+  .cr-box-profissional-info,
+  .cr-container-image-social {
+    padding-left: 0 !important;
+  }
+
+  .cr-select-category {
+    max-width: 100% !important;
   }
 }
 
