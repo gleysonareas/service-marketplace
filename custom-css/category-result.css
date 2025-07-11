@@ -85,7 +85,7 @@
   padding: 1rem;
   border-radius: 50%;
   transition: all var(--transition-ease);
-  font-size: 1.25rem;
+  font-size: var(--font-size-large-plus);
 }
 
 .cr-btn-fa-commenting-child i:hover {
@@ -354,7 +354,7 @@
 
 .cr-btn-search-profissional i {
   flex-shrink: 0;
-  font-size: 2rem;
+  font-size: var(--font-size-xlarge);
   padding: 0.25rem;
   margin-top: -0.5rem;
   margin-right: -6rem;
