@@ -47,6 +47,10 @@ a.p-tabview-nav-link {
     color: var(--font-gray) !important;
 }
 
+a.p-tabview-nav-link:hover {
+    text-decoration: none !important;
+}
+
 /* End PrimeNg Class */
 .pp-lbl-professional-child {
     padding-left: 0.8rem;
@@ -158,7 +162,7 @@ a.p-tabview-nav-link {
     padding-top: 11px;
 }
 
-.pp-box-social > div:first-of-type {
+.pp-box-social>div:first-of-type {
     margin-top: 7px !important;
 }
 
@@ -303,7 +307,7 @@ a.p-tabview-nav-link {
     color: var(--mp-dark-0);
 }
 
-.pp-box-address > div:first-child {
+.pp-box-address>div:first-child {
     margin-top: 0;
 }
 
@@ -359,8 +363,8 @@ a.p-tabview-nav-link {
 }
 
 @media screen and (max-width: 1600px) {
-    .repeater-Repeater2-content {
-        gap: 1.5rem;
+    .p-tabview-title {
+        font-size: var(--font-size-medium-plus) !important
     }
 
     .pp-box-profile-info {
@@ -374,27 +378,62 @@ a.p-tabview-nav-link {
     .pp-global-button-child {
         min-width: 10rem;
     }
+
+    .pp-lbl-bio-pro-child {
+        line-height: 120%;
+    }
+
+    .pp-svg-icon-linkedin,
+    .pp-svg-icon-instagram {
+        height: 28px;
+    }
+
+    .pp-global-button-child {
+        height: 45px;
+    }
+
+    .pp-dropdb-service-type-child,
+    .period-value,
+    .svg-style {
+        font-size: var(--font-size-small);
+    }
+
+    .pp-schedule-time-child {
+        padding-top: 17px;
+    }
+
+    .pp-label-desc-child {
+        font-size: var(--font-size-medium-plus);
+    }
 }
 
-@media screen and (max-width: 1200px) {
-    .repeater-Repeater2-content {
+@media screen and (max-width: 1350px) {
+    .pp-lbl-services~.form-group-Repeater2 .repeater-Repeater2-content {
         gap: 4.5rem;
     }
 }
 
 @media screen and (max-width: 991px) {
-    .repeater-Repeater2-content {
+    .pp-lbl-services~.form-group-Repeater2 .repeater-Repeater2-content {
         gap: 0;
     }
 }
 
-@media (max-width: 763px) {
-    ez-edit-form-fields {
-        overflow: visible;
+@media (max-width: 768px) {
+    .pp-box-address-child {
+        justify-content: center;
+    }
+
+    .pp-box-image-profile-child {
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .pp-box-profile-info {
+        padding-left: 0;
     }
 
     svg {
-        width: 50px !important;
         margin-right: 0 !important;
     }
 
@@ -407,9 +446,9 @@ a.p-tabview-nav-link {
         justify-content: center;
     }
 
-    .pp-box-social > div:first-of-type,
-    .pp-box-location > div:first-of-type,
-    .pp-box-type-service > div:first-of-type,
+    .pp-box-social>div:first-of-type,
+    .pp-box-location>div:first-of-type,
+    .pp-box-type-service>div:first-of-type,
     .pp-lbl-profile-name,
     .pp-lbl-profile-category,
     .pp-rep-average-rate-child,
@@ -419,7 +458,7 @@ a.p-tabview-nav-link {
     }
 
     .pp-lbl-uf-child {
-        width: 50px;
+        width: 30px;
     }
 
     .pp-dropdb-service-type-child {
@@ -428,13 +467,11 @@ a.p-tabview-nav-link {
     }
 
     .pp-img-profile-child {
-        width: 60%;
         height: 175px;
         display: flex;
         justify-content: center;
     }
 
-    #form-runtime-f56154 .pp-box-profile-info,
     .pp-box-profile-info {
         padding-left: 0;
     }
@@ -449,6 +486,18 @@ a.p-tabview-nav-link {
 
     .pp-main-box-profile-child {
         padding-inline: 1rem;
+    }
+
+    .pp-box-image-profile-child {
+        justify-content: center;
+    }
+
+    .pp-box-type-service-child .repeater-TypeServiceRepeater-content {
+        justify-content: center;
+    }
+
+    .pp-global-button-full-child {
+        max-width: 100%;
     }
 }
 
