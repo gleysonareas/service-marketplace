@@ -1,351 +1,448 @@
-.schedule-time div {
-  border: 0;
-  margin: 0 !important;
-  padding: 0;
-}
-
-.box-header-profile-child {
-  display: flex;
-  align-items: center;
-}
-
-.main-box-profile {
-  margin-right: auto;
-  margin-left: auto;
-  max-width: 1600px !important;
-}
-
-.schedule-time label {
-  cursor: pointer;
-  margin-bottom: 0 !important;
-  border-radius: var(--border-radius-medium);
-  border: 1px solid var(--light-gray-1);
-  background: var(--mp-light-light);
-  padding: 10px;
-  font-size: var(--font-size-small);
-  margin-right: 10px;
-}
-
-.box-social > div:first-of-type {
-  margin-top: 7px !important;
-}
-
-.html-category-breadcrumb-child {
-  display: flex;
-  align-items: center;
-}
-
-.html-category-breadcrumb-child span {
-  font-size: var(--font-size-medium-plus);
+/* Start CSS Professional Profile Page */
+/* Start PrimeNg Class */
+.recurrence-time-label label {
+    padding: 1em;
+    border-radius: var(--border-radius-medium);
+    border: 1px solid var(--light-gray-1);
 }
 
 .pi-star-fill {
-  color: var(--mp-primary-0) !important;
-}
-
-svg {
-  width: 20px;
-  height: 20px;
-  margin-right: 10px;
-}
-
-.rating-stars {
-  margin: 0 1em;
-}
-
-.starfillicon svg {
-  width: 16px;
-  height: 16px;
-  margin-right: 0 !important;
-  color: var(--mp-primary-0);
-}
-
-.rating-labels label {
-  font-size: var(--font-size-medium-plus);
-  color: var(--font-gray-secondary);
-}
-
-.lbl-about {
-  padding-left: 1rem;
-  padding-right: 0.2rem;
-}
-
-.subtitle label {
-  font-size: var(--font-size-medium);
-  font-weight: var(--font-weight-bold);
-  color: var(--mp-dark-0);
-}
-
-.lbl-professional {
-  padding-left: 0.2em;
-}
-
-.lbl-bio-pro-child {
-  text-align: justify;
-}
-
-.dropdb-speciality-service {
-  padding-left: 10px;
-}
-
-.box-servico {
-  border-radius: 12px;
-  box-shadow: 0 0 30px var(--shadow-service);
-  min-height: 173px;
-  max-width: 241px;
-  width: 100%;
-}
-
-.label-desc {
-  font-size: var(--font-size-medium-plus);
-  font-weight: var(--font-weight-bold);
-  min-height: 3.5rem;
-}
-
-.dropdb-speciality-service-child {
-  border: none;
-  color: #fff;
-  border-radius: 16px;
-  max-width: fit-content;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-  background-color: var(--font-gray-secondary);
-}
-
-.dropdb-service-type-child {
-  border: none;
-  padding: 0.5em 1em;
-  border-radius: var(--border-radius-medium);
-  margin-left: 1em;
-  margin-right: 2em;
-  text-align: center;
-  background: var(--mp-primary-3);
-  max-width: fit-content;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-}
-
-.box-next-available-times {
-  height: 100%;
-  border-radius: var(--border-radius-medium);
-  background-color: #fff;
-  padding: 1em 2em;
-}
-
-.box-header-profile {
-  border-radius: var(--border-radius-medium);
-  background-color: #fff;
-}
-
-.img-pro-profile-child {
-  border-radius: 50%;
-  width: 160px;
-  height: 160px;
-}
-
-.lbl-profile-name {
-  margin-bottom: 0 !important;
-}
-
-.lbl-profile-name-child {
-  font-size: var(--font-size-xlarge);
-  font-weight: var(--font-weight-bold);
-  color: var(--mp-dark-0);
-  margin-bottom: 0;
-}
-
-.lbl-profile-category {
-  margin-bottom: 0.5em;
-}
-
-.lbl-profile-category label,
-.local-regular label {
-  font-size: var(--font-size-medium);
-  color: var(--font-gray);
-}
-
-.box-type-service,
-.global-button,
-.box-social,
-.local-regular,
-.box-next-available-times {
-  margin-bottom: 0;
-}
-
-.info-profissional-label {
-  display: flex;
-  align-items: center;
-}
-
-.info-profissional-label label {
-  font-size: var(--font-size-medium-plus);
-  color: var(--mp-dark-0);
-}
-
-.box-address > div:first-child {
-  margin-top: 0;
-}
-
-.repeater-TypeServiceRepeater-content {
-  margin-top: 1em;
-}
-
-.recurrence-time-label label {
-  padding: 1em;
-  border-radius: var(--border-radius-medium);
-  border: 1px solid var(--light-gray-1);
-}
-
-.form-group-HTMLField {
-  margin-top: 0.5em;
-}
-
-.box-servicos {
-  padding: 0;
-}
-
-a {
-  color: var(--font-gray) !important;
+    color: var(--mp-primary-0) !important;
 }
 
 .p-tabview-title {
-  font-size: var(--font-size-medium-plus) !important;
-  font-weight: var(--font-weight-normal) !important;
+    font-weight: 400 !important;
+    font-size: 20px !important;
+    line-height: 100% !important;
 }
 
 .p-tabview .p-tabview-nav li.p-highlight .p-tabview-nav-link {
-  border-color: var(--font-gray) !important;
+    border-color: var(--font-gray) !important;
+}
+
+
+.p-tabview .p-tabview-nav li .p-tabview-nav-link {
+    padding: 1em 0 !important;
+    margin: 0 1em 0 0 !important;
+}
+
+.p-tabview .p-tabview-nav {
+    border: none !important;
+    background: transparent !important;
+}
+
+.p-tabview .p-tabview-panels {
+    border: none !important;
+    padding: 0 !important;
+    background: transparent !important;
 }
 
 .card,
 .p-component {
-  border: none !important;
-  background-color: transparent !important;
+    border: none !important;
+    background-color: transparent !important;
 }
 
-.p-tabview .p-tabview-nav li .p-tabview-nav-link {
-  padding: 1em 0 !important;
-  margin: 0 1em 0 0 !important;
+a.p-tabview-nav-link {
+    color: var(--font-gray) !important;
 }
 
-.p-tabview .p-tabview-nav {
-  border: none !important;
-  background: transparent !important;
+/* End PrimeNg Class */
+.pp-lbl-professional-child {
+    padding-left: 0.8rem;
 }
 
-.p-tabview .p-tabview-panels {
-  border: none !important;
-  padding: 0 !important;
-  background: transparent !important;
+.pp-lbl-next-available-time-child,
+.pp-lbl-about-child,
+.pp-lbl-professional-child,
+.pp-lbl-services-child,
+.pp-lbl-clinic-name-child {
+    color: var(--mp-dark-0);
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 100%;
+}
+
+.pp-dropdb-speciality-service {
+    padding-left: 10px;
+}
+
+.pp-dropdb-speciality-service-child {
+    border: none;
+    color: #fff;
+    border-radius: 16px;
+    max-width: fit-content;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-color: var(--font-gray-secondary);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+}
+
+.pp-label-desc-child {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 100%;
+}
+
+.period-value {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+}
+
+.svg-style {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    text-align: right;
+}
+
+.style-address {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+}
+
+.pp-box-type-service-child .repeater-TypeServiceRepeater-content {
+    margin-top: 1em;
+}
+
+.pp-svg-icon-instagram,
+.pp-svg-icon-linkedin {
+    width: 32px;
+    height: 32px;
+    margin-right: 10px;
+}
+
+.pp-main-box-profile {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1600px !important;
+}
+
+.pp-schedule-time div {
+    border: 0;
+    margin: 0 !important;
+    padding: 0;
+}
+
+.pp-box-header-profile-child {
+    display: flex;
+    align-items: center;
+}
+
+.pp-schedule-time-child {
+    cursor: pointer;
+    margin-bottom: 0 !important;
+    border: 1px solid var(--light-gray-1);
+    background: var(--mp-light-light);
+    padding: 10px;
+    margin-right: 10px;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    width: 81px;
+    height: 51px;
+    border-radius: 8px;
+    border-width: 1px;
+    padding-top: 11px;
+}
+
+.pp-box-social>div:first-of-type {
+    margin-top: 7px !important;
+}
+
+.pp-html-category-breadcrumb-child {
+    display: flex;
+    align-items: center;
+}
+
+.pp-html-category-breadcrumb-child span {
+    font-size: var(--font-size-medium-plus);
+}
+
+.pp-rating-stars {
+    margin: 0 1em;
+}
+
+
+.pp-rating-labels-child {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    color: var(--font-gray-secondary);
+}
+
+.pp-lbl-about {
+    padding-left: 1rem;
+    padding-right: 0.2rem;
+}
+
+.pp-lbl-professional {
+    padding-left: 0.2em;
+}
+
+.pp-lbl-bio-pro-child {
+    text-align: left;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+}
+
+.pp-box-servico {
+    border-radius: 12px;
+    box-shadow: 0 0 30px var(--shadow-service);
+    min-height: 173px;
+    max-width: 241px;
+    width: 100%;
+}
+
+.pp-label-desc {
+    font-size: var(--font-size-medium-plus);
+    font-weight: var(--font-weight-bold);
+    min-height: 3.5rem;
+}
+
+.pp-dropdb-service-type-child {
+    border: none;
+    padding: 0.5em 1em;
+    border-radius: var(--border-radius-medium);
+    margin-left: 1em;
+    margin-right: 2em;
+    text-align: center;
+    background: var(--mp-primary-3);
+    max-width: fit-content;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.pp-box-next-available-times {
+    height: 100%;
+    border-radius: var(--border-radius-medium);
+    background-color: #fff;
+    padding: 1em 2em;
+}
+
+.pp-box-header-profile {
+    border-radius: var(--border-radius-medium);
+    background-color: #fff;
+}
+
+.pp-img-profile-child {
+    border-radius: 50%;
+    width: 160px;
+    height: 160px;
+}
+
+.pp-lbl-profile-name {
+    margin-bottom: 0 !important;
+}
+
+.pp-lbl-profile-name-child {
+    color: var(--mp-dark-0);
+    margin-bottom: 0;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 100%;
+}
+
+.pp-lbl-profile-category {
+    margin-bottom: 0.5em;
+}
+
+.pp-lbl-profile-category-child {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 100%;
+}
+
+.pp-local-regular-child {
+    font-size: var(--font-size-medium);
+    color: var(--font-gray);
+}
+
+.pp-box-type-service,
+.pp-global-button,
+.pp-box-social,
+.pp-local-regular,
+.pp-box-next-available-times {
+    margin-bottom: 0;
+}
+
+.pp-info-profissional-label {
+    display: flex;
+    align-items: center;
+}
+
+.pp-info-profissional-label-child {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 100%;
+    color: var(--mp-dark-0);
+}
+
+.pp-box-address>div:first-child {
+    margin-top: 0;
+}
+
+.pp-box-servicos {
+    padding: 0;
+}
+
+.pp-global-button-child {
+    max-width: 288px;
+    height: 56px;
+    width: -webkit-fill-available;
+}
+
+.pp-global-button-child span {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 100%;
+    text-align: center;
+}
+
+.pp-global-button-full-child {
+    max-width: 469px;
+}
+
+.pp-icon-location-child {
+    width: 16px;
+    height: 16px;
+}
+
+.pp-lbl-province-state-child,
+.pp-lbl-uf-child,
+.pp-dropdb-service-type-child {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+}
+
+.pp-clinic-images-child {
+    height: 236px !important;
 }
 
 @media screen and (min-width: 1920px) {
-  .main-box-profile {
-    max-width: 1600px;
-  }
+    .pp-main-box-profile {
+        max-width: 1600px;
+    }
 
-  .img-pro-profile-child {
-    max-width: 200px;
-    max-height: 200px;
-  }
+    .pp-img-profile-child {
+        max-width: 200px;
+        max-height: 200px;
+    }
 }
 
 @media screen and (max-width: 1600px) {
-  .box-pro-profile-info {
-    padding-left: 6rem;
-  }
+    .repeater-Repeater2-content {
+        gap: 1.5rem;
+    }
 
-  .repeater-Repeater2-content {
-    gap: 1.5rem;
-  }
+    .pp-box-profile-info {
+        padding-left: 6rem;
+    }
 
-  .box-servico {
-    min-width: 176px;
-  }
+    .pp-box-servico {
+        min-width: 176px;
+    }
 
-  .global-button-child {
-    min-width: 10rem;
-  }
+    .pp-global-button-child {
+        min-width: 10rem;
+    }
 }
 
 @media screen and (max-width: 1200px) {
-  .repeater-Repeater2-content {
-    gap: 4.5rem;
-  }
+    .repeater-Repeater2-content {
+        gap: 4.5rem;
+    }
 }
 
 @media screen and (max-width: 991px) {
-  .repeater-Repeater2-content {
-    gap: 0;
-  }
+    .repeater-Repeater2-content {
+        gap: 0;
+    }
 }
 
 @media (max-width: 763px) {
-  .box-header-profile-child {
-    flex-direction: column;
-  }
+    ez-edit-form-fields {
+        overflow: visible;
+    }
 
-  .info-profissional-label {
-    width: 100%;
-    justify-content: center;
-  }
+    svg {
+        width: 50px !important;
+        margin-right: 0 !important;
+    }
 
-  .box-social > div:first-of-type,
-  .box-location > div:first-of-type,
-  .box-type-service > div:first-of-type,
-  .lbl-profile-name,
-  .lbl-profile-category,
-  .rep-average-rate-child,
-  .info-profissional-label {
-    display: flex;
-    justify-content: center;
-  }
+    .pp-box-header-profile-child {
+        flex-direction: column;
+    }
 
-  svg {
-    width: 50px !important;
-    margin-right: 0 !important;
-  }
+    .pp-info-profissional-label {
+        width: 100%;
+        justify-content: center;
+    }
 
-  .lbl-uf-child {
-    width: 50px;
-  }
+    .pp-box-social>div:first-of-type,
+    .pp-box-location>div:first-of-type,
+    .pp-box-type-service>div:first-of-type,
+    .pp-lbl-profile-name,
+    .pp-lbl-profile-category,
+    .pp-rep-average-rate-child,
+    .pp-info-profissional-label {
+        display: flex;
+        justify-content: center;
+    }
 
-  .dropdb-service-type-child {
-    margin-left: 3em;
-    margin-right: 2em;
-  }
 
-  .img-pro-profile-child {
-    width: 60%;
-    height: 175px;
-    display: flex;
-    justify-content: center;
-  }
+    .pp-lbl-uf-child {
+        width: 50px;
+    }
 
-  ez-edit-form-fields {
-    overflow: visible;
-  }
+    .pp-dropdb-service-type-child {
+        margin-left: 3em;
+        margin-right: 2em;
+    }
 
-  #form-runtime-f56154 .box-pro-profile-info,
-  .box-pro-profile-info {
-    padding-left: 0;
-  }
+    .pp-img-profile-child {
+        width: 60%;
+        height: 175px;
+        display: flex;
+        justify-content: center;
+    }
 
-  .box-scheduling-time-child {
-    justify-content: center;
-  }
+    #form-runtime-f56154 .pp-box-profile-info,
+    .pp-box-profile-info {
+        padding-left: 0;
+    }
+
+    .pp-box-scheduling-time-child {
+        justify-content: center;
+    }
+
+    .pp-lbl-profile-name-child {
+        font-size: var(--font-size-large);
+    }
+
+    .pp-main-box-profile-child {
+        padding-inline: 1rem;
+    }
 }
 
 @media screen and (max-width: 375px) {
-  .img-pro-profile-child {
-    height: 150px;
-  }
+    .pp-img-profile-child {
+        height: 150px;
+    }
 }
 
 @media screen and (max-width: 320px) {
-  .img-pro-profile-child {
-    height: 120px;
-  }
+    .pp-img-profile-child {
+        height: 120px;
+    }
 }
+
+/* End CSS Professional Profile Page */
