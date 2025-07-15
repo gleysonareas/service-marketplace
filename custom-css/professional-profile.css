@@ -11,15 +11,15 @@
 }
 
 .p-tabview-title {
-    font-weight: 400 !important;
-    font-size: 20px !important;
+    font-family: var(--font-roboto);
+    font-weight: var(--font-weight-normal) !important;
+    font-size: var(--font-size-large-plus) !important;
     line-height: 100% !important;
 }
 
 .p-tabview .p-tabview-nav li.p-highlight .p-tabview-nav-link {
     border-color: var(--font-gray) !important;
 }
-
 
 .p-tabview .p-tabview-nav li .p-tabview-nav-link {
     padding: 1em 0 !important;
@@ -58,8 +58,9 @@ a.p-tabview-nav-link {
 .pp-lbl-services-child,
 .pp-lbl-clinic-name-child {
     color: var(--mp-dark-0);
-    font-weight: 700;
-    font-size: 20px;
+    font-family: var(--font-roboto);
+    font-weight: var(--font-weight-bold);
+    font-size: var(--font-size-large-plus);
     line-height: 100%;
 }
 
@@ -69,40 +70,45 @@ a.p-tabview-nav-link {
 
 .pp-dropdb-speciality-service-child {
     border: none;
-    color: #fff;
-    border-radius: 16px;
+    color: var(--color-white);
+    border-radius: var(--border-radius-large-plus);
     max-width: fit-content;
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
     background-color: var(--font-gray-secondary);
-    font-weight: 400;
-    font-size: 16px;
+    font-family: var(--font-roboto);
+    font-weight: var(--font-weight-normal);
+    font-size: var(--font-size-medium-plus);
     line-height: 100%;
 }
 
 .pp-label-desc-child {
-    font-weight: 400;
-    font-size: 20px;
+    font-family: var(--font-roboto);
+    font-weight: var(--font-weight-normal);
+    font-size: var(--font-size-large-plus);
     line-height: 100%;
 }
 
 .period-value {
-    font-weight: 400;
-    font-size: 16px;
+    font-family: var(--font-roboto);
+    font-weight: var(--font-weight-normal);
+    font-size: var(--font-size-medium-plus);
     line-height: 100%;
 }
 
 .svg-style {
-    font-weight: 400;
-    font-size: 16px;
+    font-family: var(--font-roboto);
+    font-weight: var(--font-weight-normal);
+    font-size: var(--font-size-medium-plus);
     line-height: 100%;
     text-align: right;
 }
 
 .style-address {
-    font-weight: 400;
-    font-size: 16px;
+    font-family: var(--font-roboto);
+    font-weight: var(--font-weight-normal);
+    font-size: var(--font-size-medium-plus);
     line-height: 100%;
 }
 
@@ -141,17 +147,18 @@ a.p-tabview-nav-link {
     background: var(--mp-light-light);
     padding: 10px;
     margin-right: 10px;
-    font-weight: 400;
-    font-size: 16px;
+    font-family: var(--font-roboto);
+    font-weight: var(--font-weight-normal);
+    font-size: var(--font-size-medium-plus);
     text-align: center;
     width: 81px;
     height: 51px;
-    border-radius: 8px;
+    border-radius: var(--border-radius-medium);
     border-width: 1px;
     padding-top: 11px;
 }
 
-.pp-box-social>div:first-of-type {
+.pp-box-social > div:first-of-type {
     margin-top: 7px !important;
 }
 
@@ -161,6 +168,7 @@ a.p-tabview-nav-link {
 }
 
 .pp-html-category-breadcrumb-child span {
+    font-family: var(--font-roboto);
     font-size: var(--font-size-medium-plus);
 }
 
@@ -168,17 +176,17 @@ a.p-tabview-nav-link {
     margin: 0 1em;
 }
 
-
 .pp-rating-labels-child {
-    font-weight: 400;
-    font-size: 16px;
+    font-family: var(--font-roboto);
+    font-weight: var(--font-weight-normal);
+    font-size: var(--font-size-medium-plus);
     line-height: 100%;
     color: var(--font-gray-secondary);
 }
 
 .pp-lbl-about {
     padding-left: 1rem;
-    padding-right: 0.2rem;
+    padding-right: 0.2em;
 }
 
 .pp-lbl-professional {
@@ -187,13 +195,14 @@ a.p-tabview-nav-link {
 
 .pp-lbl-bio-pro-child {
     text-align: left;
-    font-weight: 400;
-    font-size: 16px;
+    font-family: var(--font-roboto);
+    font-weight: var(--font-weight-normal);
+    font-size: var(--font-size-medium-plus);
     line-height: 100%;
 }
 
 .pp-box-servico {
-    border-radius: 12px;
+    border-radius: var(--border-radius-medium-plus);
     box-shadow: 0 0 30px var(--shadow-service);
     min-height: 173px;
     max-width: 241px;
@@ -201,6 +210,7 @@ a.p-tabview-nav-link {
 }
 
 .pp-label-desc {
+    font-family: var(--font-roboto);
     font-size: var(--font-size-medium-plus);
     font-weight: var(--font-weight-bold);
     min-height: 3.5rem;
@@ -218,18 +228,22 @@ a.p-tabview-nav-link {
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
+    font-family: var(--font-roboto);
+    font-weight: var(--font-weight-normal);
+    font-size: var(--font-size-medium-plus);
+    line-height: 100%;
 }
 
 .pp-box-next-available-times {
     height: 100%;
     border-radius: var(--border-radius-medium);
-    background-color: #fff;
+    background-color: var(--bg-white);
     padding: 1em 2em;
 }
 
 .pp-box-header-profile {
     border-radius: var(--border-radius-medium);
-    background-color: #fff;
+    background-color: var(--bg-white);
 }
 
 .pp-img-profile-child {
@@ -245,8 +259,9 @@ a.p-tabview-nav-link {
 .pp-lbl-profile-name-child {
     color: var(--mp-dark-0);
     margin-bottom: 0;
-    font-weight: 700;
-    font-size: 24px;
+    font-family: var(--font-roboto);
+    font-weight: var(--font-weight-bold);
+    font-size: var(--font-size-large);
     line-height: 100%;
 }
 
@@ -255,12 +270,14 @@ a.p-tabview-nav-link {
 }
 
 .pp-lbl-profile-category-child {
-    font-weight: 400;
-    font-size: 20px;
+    font-family: var(--font-roboto);
+    font-weight: var(--font-weight-normal);
+    font-size: var(--font-size-large-plus);
     line-height: 100%;
 }
 
 .pp-local-regular-child {
+    font-family: var(--font-roboto);
     font-size: var(--font-size-medium);
     color: var(--font-gray);
 }
@@ -279,13 +296,14 @@ a.p-tabview-nav-link {
 }
 
 .pp-info-profissional-label-child {
-    font-weight: 400;
-    font-size: 20px;
+    font-family: var(--font-roboto);
+    font-weight: var(--font-weight-normal);
+    font-size: var(--font-size-large-plus);
     line-height: 100%;
     color: var(--mp-dark-0);
 }
 
-.pp-box-address>div:first-child {
+.pp-box-address > div:first-child {
     margin-top: 0;
 }
 
@@ -300,8 +318,9 @@ a.p-tabview-nav-link {
 }
 
 .pp-global-button-child span {
-    font-weight: 400;
-    font-size: 20px;
+    font-family: var(--font-roboto);
+    font-weight: var(--font-weight-normal);
+    font-size: var(--font-size-large-plus);
     line-height: 100%;
     text-align: center;
 }
@@ -318,8 +337,9 @@ a.p-tabview-nav-link {
 .pp-lbl-province-state-child,
 .pp-lbl-uf-child,
 .pp-dropdb-service-type-child {
-    font-weight: 400;
-    font-size: 16px;
+    font-family: var(--font-roboto);
+    font-weight: var(--font-weight-normal);
+    font-size: var(--font-size-medium-plus);
     line-height: 100%;
 }
 
@@ -387,9 +407,9 @@ a.p-tabview-nav-link {
         justify-content: center;
     }
 
-    .pp-box-social>div:first-of-type,
-    .pp-box-location>div:first-of-type,
-    .pp-box-type-service>div:first-of-type,
+    .pp-box-social > div:first-of-type,
+    .pp-box-location > div:first-of-type,
+    .pp-box-type-service > div:first-of-type,
     .pp-lbl-profile-name,
     .pp-lbl-profile-category,
     .pp-rep-average-rate-child,
@@ -397,7 +417,6 @@ a.p-tabview-nav-link {
         display: flex;
         justify-content: center;
     }
-
 
     .pp-lbl-uf-child {
         width: 50px;

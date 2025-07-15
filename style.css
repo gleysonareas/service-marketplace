@@ -44,4 +44,8 @@
   --font-size-medium-xlarge: 1.625rem;
   --font-size-small-plus: 1.125rem;
   --font-size-tiny-plus: 0.875rem;
+  --color-white: #fff;
+  --bg-white: #fff;
+  --border-radius-large-plus: 16px;
+  --border-radius-medium-plus: 12px;
 }
